@@ -5,12 +5,14 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         ArrayList<Book> libraryContent = new ArrayList<Book>();
-        LoadBookLibrary loadBookLibrary = new LoadBookLibrary();
+        LoadBookLibraryCSV loadBookLibraryCSV = new LoadBookLibraryCSV();
+        LoadBookLibraryJSON loadBookLibraryJSON = new LoadBookLibraryJSON();
         SaveBookLibrary saveBookLibrary = new SaveBookLibrary();
 
         System.out.println("   - Welcome to Syd's Library -");
-        libraryContent = loadBookLibrary.readCSVFile();
+        //libraryContent = loadBookLibraryCSV.readCSVFile();
+        libraryContent = loadBookLibraryJSON.readJSONFile();
         System.out.println("\n    " + libraryContent.size() + " books were loaded.");
-        if (libraryContent.size() != 0) saveBookLibrary.saveBookLibraryToJSONFile(libraryContent);
+        // if (libraryContent.size() != 0) saveBookLibrary.saveBookLibraryToJSONFile(libraryContent);
     }
 }

@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class LoadBookLibrary {
+public class LoadBookLibraryCSV {
     private ArrayList<Book> books = new ArrayList<Book>();
     private String bookDataFilePath = "./src/main/resources/books_data.csv";
 
