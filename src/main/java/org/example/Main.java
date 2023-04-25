@@ -12,6 +12,5 @@ public class Main {
         libraryContent = loadBookLibrary.readCSVFile();
         System.out.println("\n    " + libraryContent.size() + " books were loaded.");
         if (libraryContent.size() != 0) saveBookLibrary.saveBookLibraryToJSONFile(libraryContent);
-
     }
 }
