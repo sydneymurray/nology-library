@@ -1,0 +1,1082 @@
+[
+  {   
+    "id":1,
+    "timesLoaned":0,
+    "author":"Jaideva Goswami",
+    "title":"Fundamentals of Wavelets",
+    "genre":"tech",
+    "subGenre":"signal_processing",
+    "publisher":"Wiley"
+  },
+  {   
+    "id":2,
+    "timesLoaned":0,
+    "author":"John Foreman",
+    "title":"Data Smart",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"Wiley"
+  },
+  {   
+    "id":3,
+    "timesLoaned":0,
+    "author":"Stephen Hawking",
+    "title":"God Created the Integers",
+    "genre":"tech",
+    "subGenre":"mathematics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":4,
+    "timesLoaned":0,
+    "author":"Stephen Dubner",
+    "title":"Superfreakonomics",
+    "genre":"science",
+    "subGenre":"economics",
+    "publisher":"HarperCollins"
+  },
+  {   
+    "id":5,
+    "timesLoaned":0,
+    "author":"Edward Said",
+    "title":"Orientalism",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":6,
+    "timesLoaned":0,
+    "author":"Vladimir Vapnik",
+    "title":"The Nature of Statistical Learning Theory",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"Springer"
+  },
+  {   
+    "id":7,
+    "timesLoaned":0,
+    "author":"VP Menon",
+    "title":"Integration of the Indian States",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Orient Blackswan"
+  },
+  {   
+    "id":8,
+    "timesLoaned":0,
+    "author":"Leonard Mlodinow",
+    "title":"The Drunkard's Walk",
+    "genre":"science",
+    "subGenre":"mathematics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":9,
+    "timesLoaned":0,
+    "author":"Frank Shih",
+    "title":"Image Processing & Mathematical Morphology",
+    "genre":"tech",
+    "subGenre":"signal_processing",
+    "publisher":"CRC"
+  },
+  {   
+    "id":10,
+    "timesLoaned":0,
+    "author":"Maria Konnikova",
+    "title":"How to Think Like Sherlock Holmes",
+    "genre":"nonfiction",
+    "subGenre":"psychology",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":11,
+    "timesLoaned":0,
+    "author":"Sebastian Gutierrez",
+    "title":"Data Scientists at Work",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"Apress"
+  },
+  {   
+    "id":12,
+    "timesLoaned":0,
+    "author":"Kurt Vonnegut",
+    "title":"Slaughterhouse Five",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Random House"
+  },
+  {   
+    "id":13,
+    "timesLoaned":0,
+    "author":"Cedric Villani",
+    "title":"Birth of a Theorem",
+    "genre":"science",
+    "subGenre":"mathematics",
+    "publisher":"Bodley Head"
+  },
+  {   
+    "id":14,
+    "timesLoaned":0,
+    "author":"Gerald Sussman",
+    "title":"Structure & Interpretation of Computer Programs",
+    "genre":"tech",
+    "subGenre":"computer_science",
+    "publisher":"MIT Press"
+  },
+  {   
+    "id":15,
+    "timesLoaned":0,
+    "author":"Abraham Eraly",
+    "title":"The Age of Wrath",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":16,
+    "timesLoaned":0,
+    "author":"Frank Kafka",
+    "title":"The Trial",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Random House"
+  },
+  {   
+    "id":17,
+    "timesLoaned":0,
+    "author":"John Pratt",
+    "title":"Statistical Decision Theory'",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"MIT Press"
+  },
+  {   
+    "id":18,
+    "timesLoaned":0,
+    "author":"Robert Nisbet",
+    "title":"Data Mining Handbook",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"Apress"
+  },
+  {   
+    "id":19,
+    "timesLoaned":0,
+    "author":"H.G. Wells",
+    "title":"The New Machiavelli",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":20,
+    "timesLoaned":0,
+    "author":"Werner Heisenberg",
+    "title":"Physics & Philosophy",
+    "genre":"philosophy",
+    "subGenre":"science",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":21,
+    "timesLoaned":0,
+    "author":"Andy Oram",
+    "title":"Making Software",
+    "genre":"tech",
+    "subGenre":"computer_science",
+    "publisher":"O'Reilly"
+  },
+  {   
+    "id":22,
+    "timesLoaned":0,
+    "author":"Terence Tao",
+    "title":"VolI Analysis",
+    "genre":"tech",
+    "subGenre":"mathematics",
+    "publisher":"HBA"
+  },
+  {   
+    "id":23,
+    "timesLoaned":0,
+    "author":"Drew Conway",
+    "title":"Machine Learning for Hackers",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"O'Reilly"
+  },
+  {   
+    "id":24,
+    "timesLoaned":0,
+    "author":"Nate Silver",
+    "title":"The Signal and the Noise",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":25,
+    "timesLoaned":0,
+    "author":"Wes McKinney",
+    "title":"Python for Data Analysis",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"O'Reilly"
+  },
+  {   
+    "id":26,
+    "timesLoaned":0,
+    "author":"Thomas Cormen",
+    "title":"Introduction to Algorithms",
+    "genre":"tech",
+    "subGenre":"computer_science",
+    "publisher":"MIT Press"
+  },
+  {   
+    "id":27,
+    "timesLoaned":0,
+    "author":"Siddhartha Deb",
+    "title":"The Beautiful and the Damned",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":28,
+    "timesLoaned":0,
+    "author":"Albert Camus",
+    "title":"The Outsider",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":29,
+    "timesLoaned":0,
+    "author":"ArthurConan Doyle",
+    "title":"The-VolI Complete Sherlock Holmes",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Random House"
+  },
+  {   
+    "id":30,
+    "timesLoaned":0,
+    "author":"ArthurConan Doyle",
+    "title":"The-VolII Complete Sherlock Holmes",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Random House"
+  },
+  {   
+    "id":31,
+    "timesLoaned":0,
+    "author":"Adam Smith",
+    "title":"The Wealth of Nations",
+    "genre":"science",
+    "subGenre":"economics",
+    "publisher":"Random House"
+  },
+  {   
+    "id":32,
+    "timesLoaned":0,
+    "author":"Ken Follett",
+    "title":"The Pillars of the Earth",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Random House"
+  },
+  {   
+    "id":33,
+    "timesLoaned":0,
+    "author":"Adolf Hitler",
+    "title":"Mein Kampf",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Rupa"
+  },
+  {   
+    "id":34,
+    "timesLoaned":0,
+    "author":"Fritjof Capra",
+    "title":"The Tao of Physics",
+    "genre":"science",
+    "subGenre":"physics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":35,
+    "timesLoaned":0,
+    "author":"Richard Feynman",
+    "title":"Surely You're Joking Mr Feynman",
+    "genre":"science",
+    "subGenre":"physics",
+    "publisher":"Random House"
+  },
+  {   
+    "id":36,
+    "timesLoaned":0,
+    "author":"Ernest Hemingway",
+    "title":"A Farewell to Arms",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Rupa"
+  },
+  {   
+    "id":37,
+    "timesLoaned":0,
+    "author":"Frederick Forsyth",
+    "title":"The Veteran",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Transworld"
+  },
+  {   
+    "id":38,
+    "timesLoaned":0,
+    "author":"Jeffery Archer",
+    "title":"False Impressions",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Pan"
+  },
+  {   
+    "id":39,
+    "timesLoaned":0,
+    "author":"Randy Pausch",
+    "title":"The Last Lecture",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Hyperion"
+  },
+  {   
+    "id":40,
+    "timesLoaned":0,
+    "author":"Ayn Rand",
+    "title":"Return of the Primitive",
+    "genre":"philosophy",
+    "subGenre":"objectivism",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":41,
+    "timesLoaned":0,
+    "author":"Michael Crichton",
+    "title":"Jurassic Park",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Random House"
+  },
+  {   
+    "id":42,
+    "timesLoaned":0,
+    "author":"John Steinbeck",
+    "title":"A Russian Journal",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":43,
+    "timesLoaned":0,
+    "author":"EdgarAllen Poe",
+    "title":"Tales of Mystery and Imagination",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"HarperCollins"
+  },
+  {   
+    "id":44,
+    "timesLoaned":0,
+    "author":"Stephen Dubner",
+    "title":"Freakonomics",
+    "genre":"science",
+    "subGenre":"economics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":45,
+    "timesLoaned":0,
+    "author":"Fritjof Capra",
+    "title":"The Hidden Connections",
+    "genre":"science",
+    "subGenre":"physics",
+    "publisher":"HarperCollins"
+  },
+  {   
+    "id":46,
+    "timesLoaned":0,
+    "author":"Will Durant",
+    "title":"The Story of Philosophy",
+    "genre":"philosophy",
+    "subGenre":"history",
+    "publisher":"Pocket"
+  },
+  {   
+    "id":47,
+    "timesLoaned":0,
+    "author":"PL Deshpande",
+    "title":"Asami Asami",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":48,
+    "timesLoaned":0,
+    "author":"John Steinbeck",
+    "title":"Journal of a Novel",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":49,
+    "timesLoaned":0,
+    "author":"John Steinbeck",
+    "title":"Once There Was a War",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":50,
+    "timesLoaned":0,
+    "author":"John Steinbeck",
+    "title":"The Moon is Down",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":51,
+    "timesLoaned":0,
+    "author":"John Grisham",
+    "title":"The Brethren",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Random House"
+  },
+  {   
+    "id":52,
+    "timesLoaned":0,
+    "author":"V.S. Naipaul",
+    "title":"In a Free State",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Rupa"
+  },
+  {   
+    "id":53,
+    "timesLoaned":0,
+    "author":"Joseph Heller",
+    "title":"Catch 22",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Random House"
+  },
+  {   
+    "id":54,
+    "timesLoaned":0,
+    "author":"BBC",
+    "title":" The Complete Mastermind",
+    "genre":"nonfiction",
+    "subGenre":"trivia",
+    "publisher":"BBC"
+  },
+  {   
+    "id":55,
+    "timesLoaned":0,
+    "author":"Bob Dylan",
+    "title":"Dylan on Dylan",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Random House"
+  },
+  {   
+    "id":56,
+    "timesLoaned":0,
+    "author":"Madan Gupta",
+    "title":"Soft Computing & Intelligent Systems",
+    "genre":"tech",
+    "subGenre":"data_science",
+    "publisher":"Elsevier"
+  },
+  {   
+    "id":57,
+    "timesLoaned":0,
+    "author":"Alfred Stonier",
+    "title":"Textbook of Economic Theory",
+    "genre":"tech",
+    "subGenre":"economics",
+    "publisher":"Pearson"
+  },
+  {   
+    "id":58,
+    "timesLoaned":0,
+    "author":"W.H. Greene",
+    "title":"Econometric Analysis",
+    "genre":"tech",
+    "subGenre":"economics",
+    "publisher":"Pearson"
+  },
+  {   
+    "id":59,
+    "timesLoaned":0,
+    "author":"Gary Bradsky",
+    "title":"Learning OpenCV",
+    "genre":"tech",
+    "subGenre":"signal_processing",
+    "publisher":"O'Reilly"
+  },
+  {   
+    "id":60,
+    "timesLoaned":0,
+    "author":"Andrew Tanenbaum",
+    "title":"Data Structures Using C & C++",
+    "genre":"tech",
+    "subGenre":"computer_science",
+    "publisher":"Prentice Hall"
+  },
+  {   
+    "id":61,
+    "timesLoaned":0,
+    "author":"David Forsyth",
+    "title":"AModernApproach Computer Vision",
+    "genre":"tech",
+    "subGenre":"signal_processing",
+    "publisher":"Pearson"
+  },
+  {   
+    "id":62,
+    "timesLoaned":0,
+    "author":"Schilling Taub",
+    "title":"Principles of Communication Systems",
+    "genre":"tech",
+    "subGenre":"signal_processing",
+    "publisher":"TMH"
+  },
+  {   
+    "id":63,
+    "timesLoaned":0,
+    "author":"Yashwant Kanetkar",
+    "title":"Let Us C",
+    "genre":"tech",
+    "subGenre":"computer_science",
+    "publisher":"Prentice Hall"
+  },
+  {   
+    "id":64,
+    "timesLoaned":0,
+    "author":"Jonathan Stroud",
+    "title":"The Amulet of Samarkand",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Random House"
+  },
+  {   
+    "id":65,
+    "timesLoaned":0,
+    "author":"Fyodor Dostoevsky",
+    "title":"Crime and Punishment",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":66,
+    "timesLoaned":0,
+    "author":"Dan Brown",
+    "title":"Angels & Demons",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Random House"
+  },
+  {   
+    "id":67,
+    "timesLoaned":0,
+    "author":"Amartya Sen",
+    "title":"The Argumentative Indian",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Picador"
+  },
+  {   
+    "id":68,
+    "timesLoaned":0,
+    "author":"Amitav Ghosh",
+    "title":"Sea of Poppies",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":69,
+    "timesLoaned":0,
+    "author":"Amartya Sen",
+    "title":"The Idea of Justice",
+    "genre":"philosophy",
+    "subGenre":"economics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":70,
+    "timesLoaned":0,
+    "author":"Lorraine Hansberry",
+    "title":"A Raisin in the Sun",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":71,
+    "timesLoaned":0,
+    "author":"Bob Woodward",
+    "title":"All the President's Men",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Random House"
+  },
+  {   
+    "id":72,
+    "timesLoaned":0,
+    "author":"Jeffery Archer",
+    "title":"A Prisoner of Birth",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Pan"
+  },
+  {   
+    "id":73,
+    "timesLoaned":0,
+    "author":"Kuldip Nayar",
+    "title":"Scoop!",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"HarperCollins"
+  },
+  {   
+    "id":74,
+    "timesLoaned":0,
+    "author":"Sunita Deshpande",
+    "title":"Ahe Manohar Tari",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":75,
+    "timesLoaned":0,
+    "author":"William Dalrymple",
+    "title":"The Last Mughal",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":76,
+    "timesLoaned":0,
+    "author":"Various",
+    "title":" Vol 39 No. 1 Social Choice & Welfare",
+    "genre":"tech",
+    "subGenre":"economics",
+    "publisher":"Springer"
+  },
+  {   
+    "id":77,
+    "timesLoaned":0,
+    "author":"PL Deshpande",
+    "title":"Radiowaril Bhashane & Shrutika",
+    "genre":"nonfiction",
+    "subGenre":"misc",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":78,
+    "timesLoaned":0,
+    "author":"PL Deshpande",
+    "title":"Gun Gayin Awadi",
+    "genre":"nonfiction",
+    "subGenre":"misc",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":79,
+    "timesLoaned":0,
+    "author":"PL Deshpande",
+    "title":"Aghal Paghal",
+    "genre":"nonfiction",
+    "subGenre":"misc",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":80,
+    "timesLoaned":0,
+    "author":"Sanjay Garg",
+    "title":"Maqta-e-Ghalib",
+    "genre":"nonfiction",
+    "subGenre":"poetry",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":81,
+    "timesLoaned":0,
+    "author":"",
+    "title":"Beyond Degrees",
+    "genre":"philosophy",
+    "subGenre":"education",
+    "publisher":"HarperCollins"
+  },
+  {   
+    "id":82,
+    "timesLoaned":0,
+    "author":"VP Kale",
+    "title":"Manasa",
+    "genre":"nonfiction",
+    "subGenre":"misc",
+    "publisher":"Mauj"
+  },
+  {   
+    "id":83,
+    "timesLoaned":0,
+    "author":"Shashi Tharoor",
+    "title":"India from Midnight to Milennium",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":84,
+    "timesLoaned":0,
+    "author":"John Doe",
+    "title":" The World's Greatest Trials",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":85,
+    "timesLoaned":0,
+    "author":"Shashi Tharoor",
+    "title":"The Great Indian Novel",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":86,
+    "timesLoaned":0,
+    "author":"Dominique Lapierre",
+    "title":"O Jerusalem!",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"vikas"
+  },
+  {   
+    "id":87,
+    "timesLoaned":0,
+    "author":"Dominique Lapierre",
+    "title":"The City of Joy",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"vikas"
+  },
+  {   
+    "id":88,
+    "timesLoaned":0,
+    "author":"Dominique Lapierre",
+    "title":"Freedom at Midnight",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"vikas"
+  },
+  {   
+    "id":89,
+    "timesLoaned":0,
+    "author":"John Steinbeck",
+    "title":"The Winter of Our Discontent",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":90,
+    "timesLoaned":0,
+    "author":"Bertrand Russell",
+    "title":"On Education",
+    "genre":"philosophy",
+    "subGenre":"education",
+    "publisher":"Routledge"
+  },
+  {   
+    "id":91,
+    "timesLoaned":0,
+    "author":"Sam Harris",
+    "title":"Free Will",
+    "genre":"nonfiction",
+    "subGenre":"psychology",
+    "publisher":"FreePress"
+  },
+  {   
+    "id":92,
+    "timesLoaned":0,
+    "author":"Shashi Tharoor",
+    "title":"Bookless in Baghdad",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":93,
+    "timesLoaned":0,
+    "author":"EarleStanley Gardner",
+    "title":"The Case of the Lame Canary",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":94,
+    "timesLoaned":0,
+    "author":"Stephen Hawking",
+    "title":"The Theory of Everything",
+    "genre":"science",
+    "subGenre":"physics",
+    "publisher":"Jaico"
+  },
+  {   
+    "id":95,
+    "timesLoaned":0,
+    "author":"Peter Drucker",
+    "title":"New Markets & Other Essays",
+    "genre":"science",
+    "subGenre":"economics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":96,
+    "timesLoaned":0,
+    "author":"David Bodanis",
+    "title":"Electric Universe",
+    "genre":"science",
+    "subGenre":"physics",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":97,
+    "timesLoaned":0,
+    "author":"Victor Hugo",
+    "title":"The Hunchback of Notre Dame",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Random House"
+  },
+  {   
+    "id":98,
+    "timesLoaned":0,
+    "author":"John Steinbeck",
+    "title":"Burning Bright",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":99,
+    "timesLoaned":0,
+    "author":"Peter Drucker",
+    "title":"The Age of Discontuinity",
+    "genre":"nonfiction",
+    "subGenre":"economics",
+    "publisher":"Random House"
+  },
+  {   
+    "id":100,
+    "timesLoaned":0,
+    "author":"Richard Gordon",
+    "title":"Doctor in the Nude",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":101,
+    "timesLoaned":0,
+    "author":"George Orwell",
+    "title":"Down and Out in Paris & London",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":102,
+    "timesLoaned":0,
+    "author":"Amartya Sen",
+    "title":"Identity & Violence",
+    "genre":"philosophy",
+    "subGenre":"philosophy",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":103,
+    "timesLoaned":0,
+    "author":"William Dalrymple",
+    "title":"Beyond the Three Seas",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Random House"
+  },
+  {   
+    "id":104,
+    "timesLoaned":0,
+    "author":"",
+    "title":" The World's Greatest Short Stories",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Jaico"
+  },
+  {   
+    "id":105,
+    "timesLoaned":0,
+    "author":"Lee Iacoca",
+    "title":"Talking Straight",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":106,
+    "timesLoaned":0,
+    "author":"WilliamS Maugham",
+    "title":"Vol3 Maugham's Collected Short Stories",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Vintage"
+  },
+  {   
+    "id":107,
+    "timesLoaned":0,
+    "author":"Frederick Forsyth",
+    "title":"The Phantom of Manhattan",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":108,
+    "timesLoaned":0,
+    "author":"WilliamS Maugham",
+    "title":"Ashenden of The British Agent",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Vintage"
+  },
+  {   
+    "id":109,
+    "timesLoaned":0,
+    "author":"Robert Pirsig",
+    "title":"Zen & The Art of Motorcycle Maintenance",
+    "genre":"philosophy",
+    "subGenre":"autobiography",
+    "publisher":"Vintage"
+  },
+  {   
+    "id":110,
+    "timesLoaned":0,
+    "author":"Robert Fisk",
+    "title":"The Great War for Civilization",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"HarperCollins"
+  },
+  {   
+    "id":111,
+    "timesLoaned":0,
+    "author":"Ayn Rand",
+    "title":"We the Living",
+    "genre":"fiction",
+    "subGenre":"novel",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":112,
+    "timesLoaned":0,
+    "author":"Amir Aczel",
+    "title":"The Artist and the Mathematician",
+    "genre":"science",
+    "subGenre":"mathematics",
+    "publisher":"HighStakes"
+  },
+  {   
+    "id":113,
+    "timesLoaned":0,
+    "author":"Bertrand Russell",
+    "title":"History of Western Philosophy",
+    "genre":"philosophy",
+    "subGenre":"philosophy",
+    "publisher":"Routledge"
+  },
+  {   
+    "id":114,
+    "timesLoaned":0,
+    "author":"",
+    "title":"Selected Short Stories",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Jaico"
+  },
+  {   
+    "id":115,
+    "timesLoaned":0,
+    "author":"Amartya Sen",
+    "title":"Rationality & Freedom",
+    "genre":"science",
+    "subGenre":"economics",
+    "publisher":"Springer"
+  },
+  {   
+    "id":116,
+    "timesLoaned":0,
+    "author":"Samuel Huntington",
+    "title":"Clash of Civilizations and Remaking of the World Order",
+    "genre":"nonfiction",
+    "subGenre":"history",
+    "publisher":"Simon&Schuster"
+  },
+  {   
+    "id":117,
+    "timesLoaned":0,
+    "author":"Fritjof Capra",
+    "title":"Uncommon Wisdom",
+    "genre":"nonfiction",
+    "subGenre":"anthology",
+    "publisher":"Fontana"
+  },
+  {   
+    "id":118,
+    "timesLoaned":0,
+    "author":"Richard Bach",
+    "title":"One",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Dell"
+  },
+  {   
+    "id":119,
+    "timesLoaned":0,
+    "author":"Karl Marx",
+    "title":"Karl Marx Biography",
+    "genre":"nonfiction",
+    "subGenre":"autobiography",
+    "publisher":"Penguin"
+  },
+  {   
+    "id":120,
+    "timesLoaned":0,
+    "author":"Braithwaite",
+    "title":"To Sir With Love",
+    "genre":"fiction",
+    "subGenre":"classic",
+    "publisher":"Penguin"
+  }
+]

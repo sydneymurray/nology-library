@@ -6,20 +6,22 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class LoadBooks {
-    ArrayList<Book> books = new ArrayList<Book>();
-    String productFilePath = "./src/main/resources/books_data.csv";
+public class LoadBookLibrary {
+    private ArrayList<Book> books = new ArrayList<Book>();
+    private String bookDataFilePath = "./src/main/resources/books_data.csv";
 
 
     public ArrayList<Book> readCSVFile() {
         String dataLine;
         try {
-            BufferedReader fileReader = new BufferedReader(new FileReader(productFilePath));
+            BufferedReader fileReader = new BufferedReader(new FileReader(bookDataFilePath));
             fileReader.readLine();
             while ((dataLine = fileReader.readLine()) != null) {
                 Book book = processDataLine(dataLine.split(","));
-                if (book != null)
-                    System.out.println(book.getId() + " " + book.getAuthor() + "      " + book.getTitle());
+                books.add(book);
+                System.out.printf("%4d %4d %-22s %-55s %-12s %-15s %n",
+                        book.getId(), book.getTimesLoaned(), book.getAuthor(), book.getTitle(), book.getGenre(),
+                        book.getPublisher());
             }
         } catch (FileNotFoundException e) {
             // e.printStackTrace();
@@ -37,8 +39,10 @@ public class LoadBooks {
             book = new Book(
                     Integer.parseInt(dataLineArr[0]),
                     0,
-                    dataLineArr[2].replace("\"", "") + " " + dataLineArr[1].replace("\"", ""),
-                    dataLineArr[4].replace("\"", "") + " " + dataLineArr[3].replace("\"", ""),
+                    dataLineArr[2].replace("\"", "").replace(" ", "") +
+                            " " + dataLineArr[1].replace("\"", ""),
+                    dataLineArr[4].replace("\"", "").replace(" ", "") +
+                            " " + dataLineArr[3].replace("\"", ""),
                     dataLineArr[5],
                     dataLineArr[6],
                     dataLineArr[7]
@@ -47,7 +51,8 @@ public class LoadBooks {
             book = new Book(
                     Integer.parseInt(dataLineArr[0]),
                     0,
-                    dataLineArr[2].replace("\"", "") + " " + dataLineArr[1].replace("\"", ""),
+                    dataLineArr[2].replace("\"", "").replace("", "") +
+                            " " + dataLineArr[1].replace("\"", ""),
                     dataLineArr[3].replace("\"", ""),
                     dataLineArr[4],
                     dataLineArr[5],
@@ -58,7 +63,8 @@ public class LoadBooks {
                     Integer.parseInt(dataLineArr[0]),
                     0,
                     dataLineArr[1],
-                    dataLineArr[3].replace("\"", "") + " " + dataLineArr[2].replace("\"", ""),
+                    dataLineArr[3].replace("\"", "").replace(" ", "") +
+                            " " + dataLineArr[2].replace("\"", ""),
                     dataLineArr[4],
                     dataLineArr[5],
                     dataLineArr[6]
