@@ -6,9 +6,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class LoadBookLibraryJSON {
+public class LoadJSONBookLibrary {
     private ArrayList<Book> books = new ArrayList<Book>();
-    private String bookDataFilePath = "./src/main/resources/books_data.json";
+    private String bookDataFile = "./src/main/resources/books_data.json";
 
     public ArrayList<Book> readJSONFile() {
         String JSONString = buildJSONString();
@@ -54,7 +54,7 @@ public class LoadBookLibraryJSON {
         String JSONString = "";
         String dataLine;
         try {
-            BufferedReader fileReader = new BufferedReader(new FileReader(bookDataFilePath));
+            BufferedReader fileReader = new BufferedReader(new FileReader(bookDataFile));
             while ((dataLine = fileReader.readLine()) != null) {
                 JSONString += dataLine;
             }

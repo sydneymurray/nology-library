@@ -1,20 +1,15 @@
 package org.example;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
-public class LoadBookLibraryCSV {
+public class LoadCSVBookLibrary {
     private ArrayList<Book> books = new ArrayList<Book>();
-    private String bookDataFilePath = "./src/main/resources/books_data.csv";
 
-
-    public ArrayList<Book> readCSVFile() {
+    public ArrayList<Book> readCSVFile(File bookData) {
         String dataLine;
         try {
-            BufferedReader fileReader = new BufferedReader(new FileReader(bookDataFilePath));
+            BufferedReader fileReader = new BufferedReader(new FileReader(bookData));
             fileReader.readLine();
             while ((dataLine = fileReader.readLine()) != null) {
                 Book book = processDataLine(dataLine.split(","));

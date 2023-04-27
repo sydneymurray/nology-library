@@ -7,7 +7,7 @@ public class Member {
     private String name;
     private String email;
     private String password;
-    private int[] loanedBooks;
+    private Boolean administrator;
 
     public Member(String name, String email, String password) {
         Random random = new Random();
@@ -15,6 +15,7 @@ public class Member {
         this.name = name;
         this.email = email;
         this.password = password;
+        this.administrator = false;
     }
 
     public String getName() {
@@ -41,15 +42,19 @@ public class Member {
         this.password = password;
     }
 
-    public int[] getLoanedBooks() {
-        return loanedBooks;
-    }
-
     public int getId() {
         return id;
     }
 
-    public void setLoanedBooks(int[] loanedBooks) {
-        this.loanedBooks = loanedBooks;
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Boolean getAdministrator() {
+        return administrator;
+    }
+
+    public void setAdministrator(Boolean administrator) {
+        this.administrator = administrator;
     }
 }

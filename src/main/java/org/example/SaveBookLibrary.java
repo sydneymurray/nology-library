@@ -35,12 +35,9 @@ public class SaveBookLibrary {
             }
             fileWriter.write("\n]\n");
             fileWriter.close();
-        } catch (FileNotFoundException e) {
-            // e.printStackTrace();
-            System.out.println("CSV file not found");
         } catch (IOException e) {
             // throw new RuntimeException(e);
-            System.out.println("Could not load CSV file due to an IO error");
+            System.out.println("Could not save books JSON file due to an IO error");
         }
     }
 }

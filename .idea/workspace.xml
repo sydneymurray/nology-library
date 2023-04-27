@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="544e970b-e01f-49e5-8eeb-162e3ff883b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LibraryInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LibraryInService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LibraryInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LibraryInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadCSVBookLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadJSONBookLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SaveBookLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SaveBookLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/books_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/books_data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -47,13 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
