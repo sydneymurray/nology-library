@@ -10,9 +10,9 @@ public class Main {
         SaveBookLibrary saveBookLibrary = new SaveBookLibrary();
 
         System.out.println("   - Welcome to Syd's Library -");
-        //libraryContent = loadBookLibraryCSV.readCSVFile();
+ //       libraryContent = loadBookLibraryCSV.readCSVFile();
         libraryContent = loadBookLibraryJSON.readJSONFile();
         System.out.println("\n    " + libraryContent.size() + " books were loaded.");
-        // if (libraryContent.size() != 0) saveBookLibrary.saveBookLibraryToJSONFile(libraryContent);
+         if (libraryContent.size() != 0) saveBookLibrary.saveBookLibraryToJSONFile(libraryContent);
     }
 }

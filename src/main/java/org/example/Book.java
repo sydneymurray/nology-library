@@ -8,8 +8,10 @@ public class Book {
     private String genre;
     private String subGenre;
     private String publisher;
+    private int loanerID;
 
-    public Book(int id, int timesLoaned, String title, String author, String genre, String subGenre, String publisher) {
+    public Book(int id, int timesLoaned, String title, String author, String genre, String subGenre, String publisher,
+                int loanerID) {
         this.id = id;
         this.timesLoaned = timesLoaned;
         this.title = title;
@@ -17,6 +19,7 @@ public class Book {
         this.genre = genre;
         this.subGenre = subGenre;
         this.publisher = publisher;
+        this.loanerID = loanerID;
     }
 
     public int getId() {
@@ -69,6 +72,14 @@ public class Book {
 
     public String getPublisher() {
         return publisher;
+    }
+
+    public int getLoanerID() {
+        return loanerID;
+    }
+
+    public void setLoanerID(int loanerID) {
+        this.loanerID = loanerID;
     }
 
     public void setPublisher(String publisher) {

@@ -2,14 +2,14 @@ package org.example;
 
 import java.util.Random;
 
-public class Members {
+public class Member {
     private int id;
     private String name;
     private String email;
     private String password;
     private int[] loanedBooks;
 
-    public Members(String name, String email, String password) {
+    public Member(String name, String email, String password) {
         Random random = new Random();
         this.id = 1000 + random.nextInt(8999);
         this.name = name;

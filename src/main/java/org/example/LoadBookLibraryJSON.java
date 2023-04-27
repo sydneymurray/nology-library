@@ -32,11 +32,12 @@ public class LoadBookLibraryJSON {
                 getKeyValue(bookKeys[2]),
                 getKeyValue(bookKeys[4]),
                 getKeyValue(bookKeys[5]),
-                getKeyValue(bookKeys[6])
+                getKeyValue(bookKeys[6]),
+                Integer.parseInt(getKeyValue(bookKeys[7]))
         );
-        System.out.printf("%4d %4d %-22s %-55s %-12s %-15s %n",
-                book.getId(), book.getTimesLoaned(), book.getAuthor(), book.getTitle(), book.getGenre(),
-                book.getPublisher());
+//        System.out.printf("%4d %4d %-22s %-55s %-12s %-15s %n",
+//                book.getId(), book.getTimesLoaned(), book.getAuthor(), book.getTitle(), book.getGenre(),
+//                book.getPublisher());
         return book;
     }
 
@@ -44,6 +45,8 @@ public class LoadBookLibraryJSON {
         key = key.replace("\"", "");
         String[] value = key.split(":");
         if (value.length == 1) return "";
+        if (value[1].contains("  "))
+            value[1] = value[1].replace("  ", "");
         return value[1];
     }
 

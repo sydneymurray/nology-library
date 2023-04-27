@@ -45,7 +45,8 @@ public class LoadBookLibraryCSV {
                             " " + dataLineArr[3].replace("\"", ""),
                     dataLineArr[5],
                     dataLineArr[6],
-                    dataLineArr[7]
+                    dataLineArr[7],
+                    0
             );
         } else if (dataLineArr[1].contains("\"")) {
             book = new Book(
@@ -56,7 +57,8 @@ public class LoadBookLibraryCSV {
                     dataLineArr[3].replace("\"", ""),
                     dataLineArr[4],
                     dataLineArr[5],
-                    dataLineArr[6]
+                    dataLineArr[6],
+                    0
             );
         } else if (dataLineArr[2].contains("\"")) {
             book = new Book(
@@ -67,7 +69,8 @@ public class LoadBookLibraryCSV {
                             " " + dataLineArr[2].replace("\"", ""),
                     dataLineArr[4],
                     dataLineArr[5],
-                    dataLineArr[6]
+                    dataLineArr[6],
+                    0
             );
         } else {
             book = new Book(
@@ -77,7 +80,8 @@ public class LoadBookLibraryCSV {
                     dataLineArr[2],
                     dataLineArr[3],
                     dataLineArr[4],
-                    dataLineArr[5]
+                    dataLineArr[5],
+                    0
             );
         }
         return book;

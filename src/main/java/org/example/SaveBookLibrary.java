@@ -27,7 +27,8 @@ public class SaveBookLibrary {
                         "\n    \"title\":" + "\"" + book.getTitle() + "\"," +
                         "\n    \"genre\":" + "\"" + book.getGenre() + "\"," +
                         "\n    \"subGenre\":" + "\"" + book.getSubGenre() + "\"," +
-                        "\n    \"publisher\":" + "\"" + book.getPublisher() + "\"" +
+                        "\n    \"publisher\":" + "\"" + book.getPublisher() + "\"," +
+                        "\n    \"loanerID\":" + "" + String.valueOf(book.getLoanerID()) +
                         "\n  }"
                 );
                 jsonSeparator = true;

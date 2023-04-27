@@ -6,7 +6,8 @@
     "title":"Fundamentals of Wavelets",
     "genre":"tech",
     "subGenre":"signal_processing",
-    "publisher":"Wiley"
+    "publisher":"Wiley",
+    "loanerID":0
   },
   {   
     "id":2,
@@ -15,7 +16,8 @@
     "title":"Data Smart",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"Wiley"
+    "publisher":"Wiley",
+    "loanerID":0
   },
   {   
     "id":3,
@@ -24,7 +26,8 @@
     "title":"God Created the Integers",
     "genre":"tech",
     "subGenre":"mathematics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":4,
@@ -33,7 +36,8 @@
     "title":"Superfreakonomics",
     "genre":"science",
     "subGenre":"economics",
-    "publisher":"HarperCollins"
+    "publisher":"HarperCollins",
+    "loanerID":0
   },
   {   
     "id":5,
@@ -42,7 +46,8 @@
     "title":"Orientalism",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":6,
@@ -51,7 +56,8 @@
     "title":"The Nature of Statistical Learning Theory",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"Springer"
+    "publisher":"Springer",
+    "loanerID":0
   },
   {   
     "id":7,
@@ -60,7 +66,8 @@
     "title":"Integration of the Indian States",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Orient Blackswan"
+    "publisher":"Orient Blackswan",
+    "loanerID":0
   },
   {   
     "id":8,
@@ -69,7 +76,8 @@
     "title":"The Drunkard's Walk",
     "genre":"science",
     "subGenre":"mathematics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":9,
@@ -78,7 +86,8 @@
     "title":"Image Processing & Mathematical Morphology",
     "genre":"tech",
     "subGenre":"signal_processing",
-    "publisher":"CRC"
+    "publisher":"CRC",
+    "loanerID":0
   },
   {   
     "id":10,
@@ -87,7 +96,8 @@
     "title":"How to Think Like Sherlock Holmes",
     "genre":"nonfiction",
     "subGenre":"psychology",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":11,
@@ -96,7 +106,8 @@
     "title":"Data Scientists at Work",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"Apress"
+    "publisher":"Apress",
+    "loanerID":0
   },
   {   
     "id":12,
@@ -105,7 +116,8 @@
     "title":"Slaughterhouse Five",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":13,
@@ -114,7 +126,8 @@
     "title":"Birth of a Theorem",
     "genre":"science",
     "subGenre":"mathematics",
-    "publisher":"Bodley Head"
+    "publisher":"Bodley Head",
+    "loanerID":0
   },
   {   
     "id":14,
@@ -123,7 +136,8 @@
     "title":"Structure & Interpretation of Computer Programs",
     "genre":"tech",
     "subGenre":"computer_science",
-    "publisher":"MIT Press"
+    "publisher":"MIT Press",
+    "loanerID":0
   },
   {   
     "id":15,
@@ -132,7 +146,8 @@
     "title":"The Age of Wrath",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":16,
@@ -141,7 +156,8 @@
     "title":"The Trial",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":17,
@@ -150,7 +166,8 @@
     "title":"Statistical Decision Theory'",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"MIT Press"
+    "publisher":"MIT Press",
+    "loanerID":0
   },
   {   
     "id":18,
@@ -159,7 +176,8 @@
     "title":"Data Mining Handbook",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"Apress"
+    "publisher":"Apress",
+    "loanerID":0
   },
   {   
     "id":19,
@@ -168,7 +186,8 @@
     "title":"The New Machiavelli",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":20,
@@ -177,7 +196,8 @@
     "title":"Physics & Philosophy",
     "genre":"philosophy",
     "subGenre":"science",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":21,
@@ -186,7 +206,8 @@
     "title":"Making Software",
     "genre":"tech",
     "subGenre":"computer_science",
-    "publisher":"O'Reilly"
+    "publisher":"O'Reilly",
+    "loanerID":0
   },
   {   
     "id":22,
@@ -195,7 +216,8 @@
     "title":"VolI Analysis",
     "genre":"tech",
     "subGenre":"mathematics",
-    "publisher":"HBA"
+    "publisher":"HBA",
+    "loanerID":0
   },
   {   
     "id":23,
@@ -204,7 +226,8 @@
     "title":"Machine Learning for Hackers",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"O'Reilly"
+    "publisher":"O'Reilly",
+    "loanerID":0
   },
   {   
     "id":24,
@@ -213,7 +236,8 @@
     "title":"The Signal and the Noise",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":25,
@@ -222,7 +246,8 @@
     "title":"Python for Data Analysis",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"O'Reilly"
+    "publisher":"O'Reilly",
+    "loanerID":0
   },
   {   
     "id":26,
@@ -231,7 +256,8 @@
     "title":"Introduction to Algorithms",
     "genre":"tech",
     "subGenre":"computer_science",
-    "publisher":"MIT Press"
+    "publisher":"MIT Press",
+    "loanerID":0
   },
   {   
     "id":27,
@@ -240,7 +266,8 @@
     "title":"The Beautiful and the Damned",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":28,
@@ -249,7 +276,8 @@
     "title":"The Outsider",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":29,
@@ -258,7 +286,8 @@
     "title":"The-VolI Complete Sherlock Holmes",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":30,
@@ -267,7 +296,8 @@
     "title":"The-VolII Complete Sherlock Holmes",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":31,
@@ -276,7 +306,8 @@
     "title":"The Wealth of Nations",
     "genre":"science",
     "subGenre":"economics",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":32,
@@ -285,7 +316,8 @@
     "title":"The Pillars of the Earth",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":33,
@@ -294,7 +326,8 @@
     "title":"Mein Kampf",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Rupa"
+    "publisher":"Rupa",
+    "loanerID":0
   },
   {   
     "id":34,
@@ -303,7 +336,8 @@
     "title":"The Tao of Physics",
     "genre":"science",
     "subGenre":"physics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":35,
@@ -312,7 +346,8 @@
     "title":"Surely You're Joking Mr Feynman",
     "genre":"science",
     "subGenre":"physics",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":36,
@@ -321,7 +356,8 @@
     "title":"A Farewell to Arms",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Rupa"
+    "publisher":"Rupa",
+    "loanerID":0
   },
   {   
     "id":37,
@@ -330,7 +366,8 @@
     "title":"The Veteran",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Transworld"
+    "publisher":"Transworld",
+    "loanerID":0
   },
   {   
     "id":38,
@@ -339,7 +376,8 @@
     "title":"False Impressions",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Pan"
+    "publisher":"Pan",
+    "loanerID":0
   },
   {   
     "id":39,
@@ -348,7 +386,8 @@
     "title":"The Last Lecture",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Hyperion"
+    "publisher":"Hyperion",
+    "loanerID":0
   },
   {   
     "id":40,
@@ -357,7 +396,8 @@
     "title":"Return of the Primitive",
     "genre":"philosophy",
     "subGenre":"objectivism",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":41,
@@ -366,7 +406,8 @@
     "title":"Jurassic Park",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":42,
@@ -375,7 +416,8 @@
     "title":"A Russian Journal",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":43,
@@ -384,7 +426,8 @@
     "title":"Tales of Mystery and Imagination",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"HarperCollins"
+    "publisher":"HarperCollins",
+    "loanerID":0
   },
   {   
     "id":44,
@@ -393,7 +436,8 @@
     "title":"Freakonomics",
     "genre":"science",
     "subGenre":"economics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":45,
@@ -402,7 +446,8 @@
     "title":"The Hidden Connections",
     "genre":"science",
     "subGenre":"physics",
-    "publisher":"HarperCollins"
+    "publisher":"HarperCollins",
+    "loanerID":0
   },
   {   
     "id":46,
@@ -411,7 +456,8 @@
     "title":"The Story of Philosophy",
     "genre":"philosophy",
     "subGenre":"history",
-    "publisher":"Pocket"
+    "publisher":"Pocket",
+    "loanerID":0
   },
   {   
     "id":47,
@@ -420,7 +466,8 @@
     "title":"Asami Asami",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":48,
@@ -429,7 +476,8 @@
     "title":"Journal of a Novel",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":49,
@@ -438,7 +486,8 @@
     "title":"Once There Was a War",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":50,
@@ -447,7 +496,8 @@
     "title":"The Moon is Down",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":51,
@@ -456,7 +506,8 @@
     "title":"The Brethren",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":52,
@@ -465,7 +516,8 @@
     "title":"In a Free State",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Rupa"
+    "publisher":"Rupa",
+    "loanerID":0
   },
   {   
     "id":53,
@@ -474,7 +526,8 @@
     "title":"Catch 22",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":54,
@@ -483,7 +536,8 @@
     "title":" The Complete Mastermind",
     "genre":"nonfiction",
     "subGenre":"trivia",
-    "publisher":"BBC"
+    "publisher":"BBC",
+    "loanerID":0
   },
   {   
     "id":55,
@@ -492,7 +546,8 @@
     "title":"Dylan on Dylan",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":56,
@@ -501,7 +556,8 @@
     "title":"Soft Computing & Intelligent Systems",
     "genre":"tech",
     "subGenre":"data_science",
-    "publisher":"Elsevier"
+    "publisher":"Elsevier",
+    "loanerID":0
   },
   {   
     "id":57,
@@ -510,7 +566,8 @@
     "title":"Textbook of Economic Theory",
     "genre":"tech",
     "subGenre":"economics",
-    "publisher":"Pearson"
+    "publisher":"Pearson",
+    "loanerID":0
   },
   {   
     "id":58,
@@ -519,7 +576,8 @@
     "title":"Econometric Analysis",
     "genre":"tech",
     "subGenre":"economics",
-    "publisher":"Pearson"
+    "publisher":"Pearson",
+    "loanerID":0
   },
   {   
     "id":59,
@@ -528,7 +586,8 @@
     "title":"Learning OpenCV",
     "genre":"tech",
     "subGenre":"signal_processing",
-    "publisher":"O'Reilly"
+    "publisher":"O'Reilly",
+    "loanerID":0
   },
   {   
     "id":60,
@@ -537,7 +596,8 @@
     "title":"Data Structures Using C & C++",
     "genre":"tech",
     "subGenre":"computer_science",
-    "publisher":"Prentice Hall"
+    "publisher":"Prentice Hall",
+    "loanerID":0
   },
   {   
     "id":61,
@@ -546,7 +606,8 @@
     "title":"AModernApproach Computer Vision",
     "genre":"tech",
     "subGenre":"signal_processing",
-    "publisher":"Pearson"
+    "publisher":"Pearson",
+    "loanerID":0
   },
   {   
     "id":62,
@@ -555,7 +616,8 @@
     "title":"Principles of Communication Systems",
     "genre":"tech",
     "subGenre":"signal_processing",
-    "publisher":"TMH"
+    "publisher":"TMH",
+    "loanerID":0
   },
   {   
     "id":63,
@@ -564,7 +626,8 @@
     "title":"Let Us C",
     "genre":"tech",
     "subGenre":"computer_science",
-    "publisher":"Prentice Hall"
+    "publisher":"Prentice Hall",
+    "loanerID":0
   },
   {   
     "id":64,
@@ -573,7 +636,8 @@
     "title":"The Amulet of Samarkand",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":65,
@@ -582,7 +646,8 @@
     "title":"Crime and Punishment",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":66,
@@ -591,7 +656,8 @@
     "title":"Angels & Demons",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":67,
@@ -600,7 +666,8 @@
     "title":"The Argumentative Indian",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Picador"
+    "publisher":"Picador",
+    "loanerID":0
   },
   {   
     "id":68,
@@ -609,7 +676,8 @@
     "title":"Sea of Poppies",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":69,
@@ -618,7 +686,8 @@
     "title":"The Idea of Justice",
     "genre":"philosophy",
     "subGenre":"economics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":70,
@@ -627,7 +696,8 @@
     "title":"A Raisin in the Sun",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":71,
@@ -636,7 +706,8 @@
     "title":"All the President's Men",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":72,
@@ -645,7 +716,8 @@
     "title":"A Prisoner of Birth",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Pan"
+    "publisher":"Pan",
+    "loanerID":0
   },
   {   
     "id":73,
@@ -654,7 +726,8 @@
     "title":"Scoop!",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"HarperCollins"
+    "publisher":"HarperCollins",
+    "loanerID":0
   },
   {   
     "id":74,
@@ -663,7 +736,8 @@
     "title":"Ahe Manohar Tari",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":75,
@@ -672,7 +746,8 @@
     "title":"The Last Mughal",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":76,
@@ -681,7 +756,8 @@
     "title":" Vol 39 No. 1 Social Choice & Welfare",
     "genre":"tech",
     "subGenre":"economics",
-    "publisher":"Springer"
+    "publisher":"Springer",
+    "loanerID":0
   },
   {   
     "id":77,
@@ -690,7 +766,8 @@
     "title":"Radiowaril Bhashane & Shrutika",
     "genre":"nonfiction",
     "subGenre":"misc",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":78,
@@ -699,7 +776,8 @@
     "title":"Gun Gayin Awadi",
     "genre":"nonfiction",
     "subGenre":"misc",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":79,
@@ -708,7 +786,8 @@
     "title":"Aghal Paghal",
     "genre":"nonfiction",
     "subGenre":"misc",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":80,
@@ -717,7 +796,8 @@
     "title":"Maqta-e-Ghalib",
     "genre":"nonfiction",
     "subGenre":"poetry",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":81,
@@ -726,7 +806,8 @@
     "title":"Beyond Degrees",
     "genre":"philosophy",
     "subGenre":"education",
-    "publisher":"HarperCollins"
+    "publisher":"HarperCollins",
+    "loanerID":0
   },
   {   
     "id":82,
@@ -735,7 +816,8 @@
     "title":"Manasa",
     "genre":"nonfiction",
     "subGenre":"misc",
-    "publisher":"Mauj"
+    "publisher":"Mauj",
+    "loanerID":0
   },
   {   
     "id":83,
@@ -744,7 +826,8 @@
     "title":"India from Midnight to Milennium",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":84,
@@ -753,7 +836,8 @@
     "title":" The World's Greatest Trials",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":85,
@@ -762,7 +846,8 @@
     "title":"The Great Indian Novel",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":86,
@@ -771,7 +856,8 @@
     "title":"O Jerusalem!",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"vikas"
+    "publisher":"vikas",
+    "loanerID":0
   },
   {   
     "id":87,
@@ -780,7 +866,8 @@
     "title":"The City of Joy",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"vikas"
+    "publisher":"vikas",
+    "loanerID":0
   },
   {   
     "id":88,
@@ -789,7 +876,8 @@
     "title":"Freedom at Midnight",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"vikas"
+    "publisher":"vikas",
+    "loanerID":0
   },
   {   
     "id":89,
@@ -798,7 +886,8 @@
     "title":"The Winter of Our Discontent",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":90,
@@ -807,7 +896,8 @@
     "title":"On Education",
     "genre":"philosophy",
     "subGenre":"education",
-    "publisher":"Routledge"
+    "publisher":"Routledge",
+    "loanerID":0
   },
   {   
     "id":91,
@@ -816,7 +906,8 @@
     "title":"Free Will",
     "genre":"nonfiction",
     "subGenre":"psychology",
-    "publisher":"FreePress"
+    "publisher":"FreePress",
+    "loanerID":0
   },
   {   
     "id":92,
@@ -825,7 +916,8 @@
     "title":"Bookless in Baghdad",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":93,
@@ -834,7 +926,8 @@
     "title":"The Case of the Lame Canary",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":94,
@@ -843,7 +936,8 @@
     "title":"The Theory of Everything",
     "genre":"science",
     "subGenre":"physics",
-    "publisher":"Jaico"
+    "publisher":"Jaico",
+    "loanerID":0
   },
   {   
     "id":95,
@@ -852,7 +946,8 @@
     "title":"New Markets & Other Essays",
     "genre":"science",
     "subGenre":"economics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":96,
@@ -861,7 +956,8 @@
     "title":"Electric Universe",
     "genre":"science",
     "subGenre":"physics",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":97,
@@ -870,7 +966,8 @@
     "title":"The Hunchback of Notre Dame",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":98,
@@ -879,7 +976,8 @@
     "title":"Burning Bright",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":99,
@@ -888,7 +986,8 @@
     "title":"The Age of Discontuinity",
     "genre":"nonfiction",
     "subGenre":"economics",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":100,
@@ -897,7 +996,8 @@
     "title":"Doctor in the Nude",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":101,
@@ -906,7 +1006,8 @@
     "title":"Down and Out in Paris & London",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":102,
@@ -915,7 +1016,8 @@
     "title":"Identity & Violence",
     "genre":"philosophy",
     "subGenre":"philosophy",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":103,
@@ -924,7 +1026,8 @@
     "title":"Beyond the Three Seas",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Random House"
+    "publisher":"Random House",
+    "loanerID":0
   },
   {   
     "id":104,
@@ -933,7 +1036,8 @@
     "title":" The World's Greatest Short Stories",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Jaico"
+    "publisher":"Jaico",
+    "loanerID":0
   },
   {   
     "id":105,
@@ -942,7 +1046,8 @@
     "title":"Talking Straight",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":106,
@@ -951,7 +1056,8 @@
     "title":"Vol3 Maugham's Collected Short Stories",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Vintage"
+    "publisher":"Vintage",
+    "loanerID":0
   },
   {   
     "id":107,
@@ -960,7 +1066,8 @@
     "title":"The Phantom of Manhattan",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":108,
@@ -969,7 +1076,8 @@
     "title":"Ashenden of The British Agent",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Vintage"
+    "publisher":"Vintage",
+    "loanerID":0
   },
   {   
     "id":109,
@@ -978,7 +1086,8 @@
     "title":"Zen & The Art of Motorcycle Maintenance",
     "genre":"philosophy",
     "subGenre":"autobiography",
-    "publisher":"Vintage"
+    "publisher":"Vintage",
+    "loanerID":0
   },
   {   
     "id":110,
@@ -987,7 +1096,8 @@
     "title":"The Great War for Civilization",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"HarperCollins"
+    "publisher":"HarperCollins",
+    "loanerID":0
   },
   {   
     "id":111,
@@ -996,7 +1106,8 @@
     "title":"We the Living",
     "genre":"fiction",
     "subGenre":"novel",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":112,
@@ -1005,7 +1116,8 @@
     "title":"The Artist and the Mathematician",
     "genre":"science",
     "subGenre":"mathematics",
-    "publisher":"HighStakes"
+    "publisher":"HighStakes",
+    "loanerID":0
   },
   {   
     "id":113,
@@ -1014,7 +1126,8 @@
     "title":"History of Western Philosophy",
     "genre":"philosophy",
     "subGenre":"philosophy",
-    "publisher":"Routledge"
+    "publisher":"Routledge",
+    "loanerID":0
   },
   {   
     "id":114,
@@ -1023,7 +1136,8 @@
     "title":"Selected Short Stories",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Jaico"
+    "publisher":"Jaico",
+    "loanerID":0
   },
   {   
     "id":115,
@@ -1032,7 +1146,8 @@
     "title":"Rationality & Freedom",
     "genre":"science",
     "subGenre":"economics",
-    "publisher":"Springer"
+    "publisher":"Springer",
+    "loanerID":0
   },
   {   
     "id":116,
@@ -1041,7 +1156,8 @@
     "title":"Clash of Civilizations and Remaking of the World Order",
     "genre":"nonfiction",
     "subGenre":"history",
-    "publisher":"Simon&Schuster"
+    "publisher":"Simon&Schuster",
+    "loanerID":0
   },
   {   
     "id":117,
@@ -1050,7 +1166,8 @@
     "title":"Uncommon Wisdom",
     "genre":"nonfiction",
     "subGenre":"anthology",
-    "publisher":"Fontana"
+    "publisher":"Fontana",
+    "loanerID":0
   },
   {   
     "id":118,
@@ -1059,7 +1176,8 @@
     "title":"One",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Dell"
+    "publisher":"Dell",
+    "loanerID":0
   },
   {   
     "id":119,
@@ -1068,7 +1186,8 @@
     "title":"Karl Marx Biography",
     "genre":"nonfiction",
     "subGenre":"autobiography",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   },
   {   
     "id":120,
@@ -1077,6 +1196,7 @@
     "title":"To Sir With Love",
     "genre":"fiction",
     "subGenre":"classic",
-    "publisher":"Penguin"
+    "publisher":"Penguin",
+    "loanerID":0
   }
 ]
