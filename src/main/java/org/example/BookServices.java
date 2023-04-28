@@ -121,7 +121,7 @@ public class BookServices {
     public void displayBooksOnLoan(Member loggedInMember, ArrayList<Book> books, ArrayList<Member> members) {
         if (!loggedInMember.getAdministrator()) return;
 
-        System.out.println("\n         Books currently on loan.");
+        System.out.println("\n         Books currently on loan.  A copy is saved to loaned_books.csv");
         System.out.println("         MID Name            Email                      BID Author                 " +
                 "Title                                    Genre        Publisher      ");
         for (Book book : books) {
@@ -139,6 +139,21 @@ public class BookServices {
             }
         }
     }
+
+    public void displayLentBooks(ArrayList<Book> books) {
+        System.out.println("\n         Books currently on loan. A copy is saved to lent_books.csv");
+        System.out.println("          BID Lent Author                 " +
+                "Title                                    Genre        Publisher      ");
+        for (Book book: books) {
+            if (book.getTimesLoaned() > 0) {
+                System.out.printf("         %4d %4d %-22s %-40s %-12s %-15s %n",
+                        book.getId(), book.getTimesLoaned(), book.getAuthor(),
+                        book.getTitle(), book.getGenre(), book.getPublisher());
+            }
+        }
+        returnToMainMenu();
+    }
+
 
     private void returnToMainMenu() {
         System.out.println("\n     Press enter to return to the main menu");
