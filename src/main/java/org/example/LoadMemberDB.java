@@ -46,6 +46,7 @@ public class LoadMemberDB {
             while ((dataLine = fileReader.readLine()) != null) {
                 JSONString += dataLine;
             }
+            fileReader.close();
         } catch (FileNotFoundException e) {
             // e.printStackTrace();
             System.out.println("Members JSON file not found");

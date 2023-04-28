@@ -18,6 +18,7 @@ public class LoadCSVBookLibrary {
                         book.getId(), book.getTimesLoaned(), book.getAuthor(), book.getTitle(), book.getGenre(),
                         book.getPublisher());
             }
+            fileReader.close();
         } catch (FileNotFoundException e) {
             // e.printStackTrace();
             System.out.println("CSV file not found");

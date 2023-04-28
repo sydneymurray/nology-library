@@ -58,6 +58,7 @@ public class LoadJSONBookLibrary {
             while ((dataLine = fileReader.readLine()) != null) {
                 JSONString += dataLine;
             }
+            fileReader.close();
         } catch (FileNotFoundException e) {
             // e.printStackTrace();
             System.out.println("JSON file not found");
