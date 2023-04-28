@@ -60,7 +60,7 @@ public class BookServices {
                 break;
             }
         }
-        if (selectedBook == null){
+        if (selectedBook == null) {
             System.out.println("\n     The selected book is not available");
             returnToMainMenu();
             return;
@@ -119,26 +119,28 @@ public class BookServices {
     }
 
     public void displayBooksOnLoan(Member loggedInMember, ArrayList<Book> books, ArrayList<Member> members) {
-        if(!loggedInMember.getAdministrator()) return;
+        if (!loggedInMember.getAdministrator()) return;
 
-        System.out.println("\n     Books currently on loan.");
+        System.out.println("\n         Books currently on loan.");
+        System.out.println("         MID Name            Email                      BID Author                 " +
+                "Title                                    Genre        Publisher      ");
         for (Book book : books) {
             if (book.getLoanerID() != 0) displayLoanedBook(book, members);
         }
         returnToMainMenu();
     }
 
-    private void displayLoanedBook(Book book, ArrayList<Member> members){
-        for (Member member: members) {
+    private void displayLoanedBook(Book book, ArrayList<Member> members) {
+        for (Member member : members) {
             if (book.getLoanerID() == member.getId()) {
-                System.out.printf("%4d  %20s %30s %4d  %-22s %-55s %-12s %-15s %n",
+                System.out.printf("        %4d %-15s %-25s %4d %-22s %-40s %-12s %-15s %n",
                         member.getId(), member.getName(), member.getEmail(), book.getId(), book.getAuthor(),
                         book.getTitle(), book.getGenre(), book.getPublisher());
             }
         }
     }
 
-    private void returnToMainMenu(){
+    private void returnToMainMenu() {
         System.out.println("\n     Press enter to return to the main menu");
         try {
             textInput = keyboardInput.nextLine();
