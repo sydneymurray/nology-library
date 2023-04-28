@@ -4,34 +4,39 @@
     "name":"edward",
     "email":"ted@syd.com",
     "password":"password",
-    "administrator":false
+    "administrator":false,
+    "Test": "Test"
   },
   {   
     "id":9,
     "name":"sydney",
     "email":"syd@syd.com",
     "password":"password",
-    "administrator":false
+    "administrator":true,
+    "Test": "Test"
   },
   {   
     "id":9879,
     "name":"nicol",
     "email":"nikki@syd.com",
     "password":"password",
-    "administrator":true
+    "administrator":"true",
+    "Test": "Test"
   },
   {   
     "id":879,
     "name":"robert",
     "email":"bob@syd.com",
     "password":"password",
-    "administrator":false
+    "administrator":false,
+    "Test": "Test"
   },
   {   
     "id":2164,
     "name":"jake",
     "email":"jj@syd.com",
     "password":"password",
-    "administrator":false
+    "administrator":false,
+    "Test": "Test"
   }
 ]

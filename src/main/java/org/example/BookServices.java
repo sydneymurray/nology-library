@@ -118,6 +118,26 @@ public class BookServices {
         returnToMainMenu();
     }
 
+    public void displayBooksOnLoan(Member loggedInMember, ArrayList<Book> books, ArrayList<Member> members) {
+        if(!loggedInMember.getAdministrator()) return;
+
+        System.out.println("\n     Books currently on loan.");
+        for (Book book : books) {
+            if (book.getLoanerID() != 0) displayLoanedBook(book, members);
+        }
+        returnToMainMenu();
+    }
+
+    private void displayLoanedBook(Book book, ArrayList<Member> members){
+        for (Member member: members) {
+            if (book.getLoanerID() == member.getId()) {
+                System.out.printf("%4d  %20s %30s %4d  %-22s %-55s %-12s %-15s %n",
+                        member.getId(), member.getName(), member.getEmail(), book.getId(), book.getAuthor(),
+                        book.getTitle(), book.getGenre(), book.getPublisher());
+            }
+        }
+    }
+
     private void returnToMainMenu(){
         System.out.println("\n     Press enter to return to the main menu");
         try {

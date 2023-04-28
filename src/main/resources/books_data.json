@@ -211,13 +211,13 @@
   },
   {   
     "id":22,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Terence Tao",
     "title":"VolI Analysis",
     "genre":"tech",
     "subGenre":"mathematics",
     "publisher":"HBA",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":23,
@@ -271,13 +271,13 @@
   },
   {   
     "id":28,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Albert Camus",
     "title":"The Outsider",
     "genre":"fiction",
     "subGenre":"classic",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":29,
@@ -341,13 +341,13 @@
   },
   {   
     "id":35,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Richard Feynman",
     "title":"Surely You're Joking Mr Feynman",
     "genre":"science",
     "subGenre":"physics",
     "publisher":"Random House",
-    "loanerID":0
+    "loanerID":879
   },
   {   
     "id":36,
@@ -901,13 +901,13 @@
   },
   {   
     "id":91,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Sam Harris",
     "title":"Free Will",
     "genre":"nonfiction",
     "subGenre":"psychology",
     "publisher":"FreePress",
-    "loanerID":0
+    "loanerID":879
   },
   {   
     "id":92,
