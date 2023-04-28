@@ -10,6 +10,7 @@ public class LibraryInService {
     private int selection;
     private LibraryInformation libraryInformation = new LibraryInformation();
     private MemberServices memberServices = new MemberServices();
+    private BookServices bookServices = new BookServices();
     private static Scanner keyboardInput = new Scanner(System.in);
     private int bookTotal;
 
@@ -53,7 +54,7 @@ public class LibraryInService {
     }
 
     private void displayLoggedInMenu() {
-        System.out.println("\n\n     Welcome " + loggedInMember.getName() + ". Please select an option: \n");
+        System.out.println("\n     Welcome " + loggedInMember.getName() + ". Please select an option: \n");
         System.out.println("\n    1) Display all available books");
         System.out.println("\n    2) Search for a book");
         System.out.println("\n    3) Borrow a book");
@@ -73,7 +74,7 @@ public class LibraryInService {
         }
         switch (selection) {
             case 1:
-
+                bookServices.displayAllAvailableBooks(libraryInformation.getLibraryContent());
                 break;
             case 2:
 
