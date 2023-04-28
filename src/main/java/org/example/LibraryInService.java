@@ -62,8 +62,8 @@ public class LibraryInService {
         System.out.println("\n    5) Logout");
         System.out.println("\n    6) Upgrade membership to Admin.");
         if (loggedInMember.getAdministrator()) {
-            System.out.println("\n    5) Display books on loan");
-            System.out.println("\n    6) Display books that have been lent");
+            System.out.println("\n    7) Display books on loan");
+            System.out.println("\n    8) Display books that have been lent");
         }
 
         try {
@@ -83,13 +83,13 @@ public class LibraryInService {
                 bookServices.borrowABook(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             case 4:
-
+                bookServices.returnABook(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             case 5:
                 loggedInMember = null;
                 break;
             case 6:
-
+                memberServices.upgradeMembership(loggedInMember, libraryInformation.getLibraryMembers());
                 break;
             default:
                 // code block

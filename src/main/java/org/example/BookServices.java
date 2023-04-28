@@ -86,6 +86,38 @@ public class BookServices {
         returnToMainMenu();
     }
 
+    public void returnABook(Member loggedInMember, ArrayList<Book> books) {
+        Boolean returnBook = false;
+
+        System.out.println("\n     Please enter the book ID that you wish to return.");
+        for (Book book : books) {
+            if (book.getLoanerID() == loggedInMember.getId()) {
+                System.out.printf("%4d  %-22s %-55s %-12s %-15s %n",
+                        book.getId(), book.getAuthor(), book.getTitle(), book.getGenre(), book.getPublisher());
+            }
+        }
+
+        try {
+            selection = keyboardInput.nextInt();
+        } catch (InputMismatchException e) {
+            System.out.println("\nIncorrect selection");
+            return;
+        }
+
+        for (Book book : books) {
+            if (book.getId() == selection && book.getLoanerID() == loggedInMember.getId()) {
+                returnBook = true;
+                book.setLoanerID(0);
+                saveBookLibrary.saveBookLibraryToJSONFile(books);
+                System.out.println("      You have successfully returned " + book.getAuthor() + " " + book.getTitle());
+                break;
+            }
+        }
+
+        if (!returnBook) System.out.println("\n     Book ID: " + selection + " has not been registered to you.");
+        returnToMainMenu();
+    }
+
     private void returnToMainMenu(){
         System.out.println("\n     Press enter to return to the main menu");
         try {
