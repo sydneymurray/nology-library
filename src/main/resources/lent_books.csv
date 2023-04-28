@@ -1,0 +1,7 @@
+BookID,Lent,Author,Title,Genre,Publisher
+22,1,Terence Tao,VolI Analysis,tech,HBA
+28,1,Albert Camus,The Outsider,fiction,Penguin
+35,1,Richard Feynman,Surely You're Joking Mr Feynman,science,Random House
+91,1,Sam Harris,Free Will,nonfiction,FreePress
+115,1,Amartya Sen,Rationality & Freedom,science,Springer
+119,1,Karl Marx,Karl Marx Biography,nonfiction,Penguin

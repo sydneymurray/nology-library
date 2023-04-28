@@ -1,5 +1,8 @@
 package org.example;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -141,15 +144,34 @@ public class BookServices {
     }
 
     public void displayLentBooks(ArrayList<Book> books) {
+        File lentBooksDataFile = new File("./src/main/resources/lent_books.csv");
+        if (lentBooksDataFile.exists()) lentBooksDataFile.delete();
+        try {
+            lentBooksDataFile.createNewFile();
+        } catch (Exception e) {
+            System.out.println("Could not create " + lentBooksDataFile);
+            returnToMainMenu();
+            return;
+        }
+        String lentBooksCSVData = "BookID,Lent,Author,Title,Genre,Publisher\n";
         System.out.println("\n         Books currently on loan. A copy is saved to lent_books.csv");
         System.out.println("          BID Lent Author                 " +
                 "Title                                    Genre        Publisher      ");
-        for (Book book: books) {
+        for (Book book : books) {
             if (book.getTimesLoaned() > 0) {
                 System.out.printf("         %4d %4d %-22s %-40s %-12s %-15s %n",
                         book.getId(), book.getTimesLoaned(), book.getAuthor(),
                         book.getTitle(), book.getGenre(), book.getPublisher());
+                lentBooksCSVData += book.getId() + "," + book.getTimesLoaned() + "," + book.getAuthor() + "," +
+                        book.getTitle() + "," + book.getGenre() + "," + book.getPublisher() + "\n";
             }
+        }
+        try {
+            BufferedWriter fileWriter = new BufferedWriter(new FileWriter(lentBooksDataFile));
+            fileWriter.write(lentBooksCSVData);
+            fileWriter.close();
+        } catch (Exception e) {
+            System.out.println("Could not create " + lentBooksDataFile);
         }
         returnToMainMenu();
     }
