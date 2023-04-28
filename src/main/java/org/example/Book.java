@@ -78,6 +78,10 @@ public class Book {
         return loanerID;
     }
 
+    public void incrementTimesLoaned(){
+        timesLoaned++;
+    }
+
     public void setLoanerID(int loanerID) {
         this.loanerID = loanerID;
     }

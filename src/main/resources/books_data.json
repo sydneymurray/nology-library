@@ -1141,13 +1141,13 @@
   },
   {   
     "id":115,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Amartya Sen",
     "title":"Rationality & Freedom",
     "genre":"science",
     "subGenre":"economics",
     "publisher":"Springer",
-    "loanerID":0
+    "loanerID":4090
   },
   {   
     "id":116,
@@ -1181,13 +1181,13 @@
   },
   {   
     "id":119,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Karl Marx",
     "title":"Karl Marx Biography",
     "genre":"nonfiction",
     "subGenre":"autobiography",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":4090
   },
   {   
     "id":120,

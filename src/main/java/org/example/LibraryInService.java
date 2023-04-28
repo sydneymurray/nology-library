@@ -77,10 +77,10 @@ public class LibraryInService {
                 bookServices.displayAllAvailableBooks(libraryInformation.getLibraryContent());
                 break;
             case 2:
-
+                bookServices.searchAvailableBooks(libraryInformation.getLibraryContent());
                 break;
             case 3:
-
+                bookServices.borrowABook(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             case 4:
 
