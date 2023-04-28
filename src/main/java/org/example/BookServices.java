@@ -124,26 +124,50 @@ public class BookServices {
     public void displayBooksOnLoan(Member loggedInMember, ArrayList<Book> books, ArrayList<Member> members) {
         if (!loggedInMember.getAdministrator()) return;
 
+        File loanedBooksDataFile = new File("./src/main/resources/loaned_books.csv");
+        if (loanedBooksDataFile.exists()) loanedBooksDataFile.delete();
+        try {
+            loanedBooksDataFile.createNewFile();
+        } catch (Exception e) {
+            System.out.println("Could not create " + loanedBooksDataFile);
+            returnToMainMenu();
+            return;
+        }
+
         System.out.println("\n         Books currently on loan.  A copy is saved to loaned_books.csv");
         System.out.println("         MID Name            Email                      BID Author                 " +
                 "Title                                    Genre        Publisher      ");
+        String loanedBooksCSVData = "MemberID,Name,Email,BookID,Author,Title,Genre,Publisher\n";
         for (Book book : books) {
-            if (book.getLoanerID() != 0) displayLoanedBook(book, members);
+            if (book.getLoanerID() != 0) loanedBooksCSVData += displayLoanedBook(book, members);
+        }
+        try {
+            BufferedWriter fileWriter = new BufferedWriter(new FileWriter(loanedBooksDataFile));
+            fileWriter.write(loanedBooksCSVData);
+            fileWriter.close();
+        } catch (Exception e) {
+            System.out.println("Could not create " + loanedBooksDataFile);
         }
         returnToMainMenu();
     }
 
-    private void displayLoanedBook(Book book, ArrayList<Member> members) {
+    private String displayLoanedBook(Book book, ArrayList<Member> members) {
         for (Member member : members) {
             if (book.getLoanerID() == member.getId()) {
                 System.out.printf("        %4d %-15s %-25s %4d %-22s %-40s %-12s %-15s %n",
                         member.getId(), member.getName(), member.getEmail(), book.getId(), book.getAuthor(),
                         book.getTitle(), book.getGenre(), book.getPublisher());
+                return member.getId() + "," + member.getName() + "," + member.getEmail() + "," +
+                        book.getId() + "," + book.getAuthor() + "," + book.getTitle() + "," + book.getGenre() +
+                        "," + book.getPublisher() + "\n";
             }
         }
+        return "";
     }
 
-    public void displayLentBooks(ArrayList<Book> books) {
+    public void displayLentBooks(Member loggedInMember, ArrayList<Book> books) {
+        if (!loggedInMember.getAdministrator()) return;
+
         File lentBooksDataFile = new File("./src/main/resources/lent_books.csv");
         if (lentBooksDataFile.exists()) lentBooksDataFile.delete();
         try {
@@ -154,7 +178,7 @@ public class BookServices {
             return;
         }
         String lentBooksCSVData = "BookID,Lent,Author,Title,Genre,Publisher\n";
-        System.out.println("\n         Books currently on loan. A copy is saved to lent_books.csv");
+        System.out.println("\n         Books that have been lent. A copy is saved to lent_books.csv");
         System.out.println("          BID Lent Author                 " +
                 "Title                                    Genre        Publisher      ");
         for (Book book : books) {

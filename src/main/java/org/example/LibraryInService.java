@@ -96,7 +96,7 @@ public class LibraryInService {
                         libraryInformation.getLibraryMembers());
                 break;
             case 8:
-                bookServices.displayLentBooks(libraryInformation.getLibraryContent());
+                bookServices.displayLentBooks(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             default:
                 // code block

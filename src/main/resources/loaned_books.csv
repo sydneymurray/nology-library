@@ -1,0 +1,6 @@
+MemberID,Name,Email,BookID,Author,Title,Genre,Publisher
+2164,jake,jj@syd.com,22,Terence Tao,VolI Analysis,tech,HBA
+2164,jake,jj@syd.com,28,Albert Camus,The Outsider,fiction,Penguin
+879,robert,bob@syd.com,35,Richard Feynman,Surely You're Joking Mr Feynman,science,Random House
+879,robert,bob@syd.com,91,Sam Harris,Free Will,nonfiction,FreePress
+4090,edward,ted@syd.com,115,Amartya Sen,Rationality & Freedom,science,Springer
