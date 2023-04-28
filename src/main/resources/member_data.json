@@ -2,36 +2,36 @@
   {
     "id":4090,
     "name":"edward",
-    "email":"password",
-    "password":"ted@syd.com",
+    "email":"ted@syd.com",
+    "password":"password",
     "administrator":false
   },
   {
     "id":9,
     "name":"sydney",
-    "email":"password",
-    "password":"syd@syd.com",
+    "email":"syd@syd.com",
+    "password":"password",
     "administrator":false
   },
   {
     "id":9879,
     "name":"nicol",
-    "email":"password",
-    "password":"nikki@syd.com",
+    "email":"nikki@syd.com",
+    "password":"password",
     "administrator":false
   },
   {
     "id":879,
     "name":"robert",
-    "email":"password",
-    "password":"bob@syd.com",
+    "email":"bob@syd.com",
+    "password":"password",
     "administrator":false
   },
   {
     "id":2164,
     "name":"jake",
-    "email":"password",
-    "password":"jj@syd.com",
+    "email":"jj@syd.com",
+    "password":"password",
     "administrator":false
   }
 ]

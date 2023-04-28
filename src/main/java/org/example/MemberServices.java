@@ -43,7 +43,7 @@ public class MemberServices {
 
         if (name.equals("") || email.equals("") || password.equals("")) return;
         System.out.println("Congratulations. Your application has been accepted");
-        libraryInformation.AddNewMember(new Member(name, password, email));
+        libraryInformation.AddNewMember(new Member(name, email, password));
     }
 
     public Member LoginMember(ArrayList<Member> members) {
@@ -76,5 +76,13 @@ public class MemberServices {
         }
         System.out.println("\nLogin Unsuccessful");
         return null;
+    }
+
+    private void displayMembers(ArrayList<Member> members){
+        for (Member member: members) {
+            System.out.printf("%6d %20s %20s %20s %8s %3d %3d %n",
+                    member.getId(), member.getName(), member.getPassword(), member.getEmail(), member.getAdministrator(),
+                    member.getEmail().length(), member.getPassword().length());
+        }
     }
 }

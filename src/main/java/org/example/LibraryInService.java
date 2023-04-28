@@ -54,11 +54,12 @@ public class LibraryInService {
 
     private void displayLoggedInMenu() {
         System.out.println("\n\n     Welcome " + loggedInMember.getName() + ". Please select an option: \n");
-
-        System.out.println("\n    1) Borrow a book");
-        System.out.println("\n    2) Return a book");
-        System.out.println("\n    3) Logout");
-        System.out.println("\n    4) Upgrade membership to Admin.");
+        System.out.println("\n    1) Display all available books");
+        System.out.println("\n    2) Search for a book");
+        System.out.println("\n    3) Borrow a book");
+        System.out.println("\n    4) Return a book");
+        System.out.println("\n    5) Logout");
+        System.out.println("\n    6) Upgrade membership to Admin.");
         if (loggedInMember.getAdministrator()) {
             System.out.println("\n    5) Display books on loan");
             System.out.println("\n    6) Display books that have been lent");
@@ -78,13 +79,13 @@ public class LibraryInService {
 
                 break;
             case 3:
-                loggedInMember = null;
+
                 break;
             case 4:
 
                 break;
             case 5:
-
+                loggedInMember = null;
                 break;
             case 6:
 

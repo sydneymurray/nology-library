@@ -29,8 +29,6 @@ public class LoadMemberDB {
         );
         member.setId(Integer.parseInt(getKeyValue(memberKeys[0])));
         member.setAdministrator(Boolean.parseBoolean(getKeyValue(memberKeys[4])));
-//        System.out.printf("%6d %20s %20s %20s %8s%n",
-//                member.getId(), member.getName(), member.getPassword(), member.getEmail(), member.getAdministrator());
         return member;
     }
 
