@@ -7,12 +7,7 @@
     <list default="true" id="544e970b-e01f-49e5-8eeb-162e3ff883b9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LibraryInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LibraryInService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LibraryInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LibraryInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadCSVBookLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LoadBookLibraryJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LoadJSONBookLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SaveBookLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SaveBookLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MemberServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MemberServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
