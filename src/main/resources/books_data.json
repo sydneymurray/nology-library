@@ -101,13 +101,13 @@
   },
   {   
     "id":11,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Sebastian Gutierrez",
     "title":"Data Scientists at Work",
     "genre":"tech",
     "subGenre":"data_science",
     "publisher":"Apress",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":12,
@@ -117,7 +117,7 @@
     "genre":"fiction",
     "subGenre":"classic",
     "publisher":"Random House",
-    "loanerID":1643
+    "loanerID":0
   },
   {   
     "id":13,
@@ -171,13 +171,13 @@
   },
   {   
     "id":18,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Robert Nisbet",
     "title":"Data Mining Handbook",
     "genre":"tech",
     "subGenre":"data_science",
     "publisher":"Apress",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":19,
@@ -767,7 +767,7 @@
     "genre":"nonfiction",
     "subGenre":"misc",
     "publisher":"Mauj",
-    "loanerID":1643
+    "loanerID":0
   },
   {   
     "id":78,

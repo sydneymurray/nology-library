@@ -68,7 +68,8 @@ public class BookServices {
         }
         if (selectedBook == null) {
             System.out.println("\n     The selected book is not available");
-            returnToMainMenu();
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
             return;
         }
 
@@ -125,6 +126,8 @@ public class BookServices {
 
         if (!returnBook) {
             System.out.println("\n     Book ID: " + selection + " has not been registered to you.");
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
             System.out.println("\n     Press enter to return to the main menu");
             keyboardInput.nextLine();
             return;
@@ -188,7 +191,8 @@ public class BookServices {
             lentBooksDataFile.createNewFile();
         } catch (Exception e) {
             System.out.println("Could not create " + lentBooksDataFile);
-            returnToMainMenu();
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
             return;
         }
         String lentBooksCSVData = "BookID,Lent,Author,Title,Genre,Publisher\n";
@@ -213,15 +217,5 @@ public class BookServices {
         }
         System.out.println("\n     Press enter to return to the main menu");
         keyboardInput.nextLine();
-    }
-
-
-    private void returnToMainMenu() {
-        System.out.println("\n     Press enter to return to the main menu");
-        try {
-            keyboardInput.nextLine();
-        } catch (Exception e) {
-            System.out.println("An error occurred.");
-        }
     }
 }

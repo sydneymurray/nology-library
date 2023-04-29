@@ -102,14 +102,16 @@ public class MemberServices {
         }
         if (!userInput.equals(password)){
             System.out.println("    Incorrect password");
-            returnToMainMenu();
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
             return;
         }
 
         loggedInMember.setAdministrator(true);
         saveMemberDB.saveMemberDataToJSONFile(members);
         System.out.println("    You have successfully been upgraded to an administrator");
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
     }
 
     private void displayMembers(ArrayList<Member> members) {
@@ -117,14 +119,6 @@ public class MemberServices {
             System.out.printf("%6d %20s %20s %20s %8s %3d %3d %n",
                     member.getId(), member.getName(), member.getPassword(), member.getEmail(), member.getAdministrator(),
                     member.getEmail().length(), member.getPassword().length());
-        }
-    }
-    private void returnToMainMenu(){
-        System.out.println("\n     Press enter to return to the main menu");
-        try {
-            keyboardInput.nextLine();
-        } catch (Exception e) {
-            System.out.println("An error occurred.");
         }
     }
 }
