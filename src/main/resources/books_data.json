@@ -111,13 +111,13 @@
   },
   {   
     "id":12,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Kurt Vonnegut",
     "title":"Slaughterhouse Five",
     "genre":"fiction",
     "subGenre":"classic",
     "publisher":"Random House",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":13,
@@ -571,13 +571,13 @@
   },
   {   
     "id":58,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"W.H. Greene",
     "title":"Econometric Analysis",
     "genre":"tech",
     "subGenre":"economics",
     "publisher":"Pearson",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":59,
@@ -761,13 +761,13 @@
   },
   {   
     "id":77,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"PL Deshpande",
     "title":"Radiowaril Bhashane & Shrutika",
     "genre":"nonfiction",
     "subGenre":"misc",
     "publisher":"Mauj",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":78,

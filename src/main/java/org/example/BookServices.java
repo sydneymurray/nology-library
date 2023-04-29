@@ -22,7 +22,8 @@ public class BookServices {
                         book.getId(), book.getAuthor(), book.getTitle(), book.getGenre(), book.getPublisher());
             }
         }
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
     }
 
     public void searchAvailableBooks(ArrayList<Book> books) {
@@ -44,7 +45,8 @@ public class BookServices {
                         book.getId(), book.getAuthor(), book.getTitle(), book.getGenre(), book.getPublisher());
             }
         }
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
     }
 
     public void borrowABook(Member loggedInMember, ArrayList<Book> books) {
@@ -87,7 +89,9 @@ public class BookServices {
                     " has been checked out in your name");
             saveBookLibrary.saveBookLibraryToJSONFile(books);
         }
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
+        keyboardInput.nextLine();
     }
 
     public void returnABook(Member loggedInMember, ArrayList<Book> books) {
@@ -125,7 +129,8 @@ public class BookServices {
             keyboardInput.nextLine();
             return;
         }
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
     }
 
     public void displayBooksOnLoan(Member loggedInMember, ArrayList<Book> books, ArrayList<Member> members) {
@@ -137,7 +142,8 @@ public class BookServices {
             loanedBooksDataFile.createNewFile();
         } catch (Exception e) {
             System.out.println("Could not create " + loanedBooksDataFile);
-            returnToMainMenu();
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
             return;
         }
 
@@ -155,7 +161,8 @@ public class BookServices {
         } catch (Exception e) {
             System.out.println("Could not create " + loanedBooksDataFile);
         }
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
     }
 
     private String displayLoanedBook(Book book, ArrayList<Member> members) {
@@ -204,7 +211,8 @@ public class BookServices {
         } catch (Exception e) {
             System.out.println("Could not create " + lentBooksDataFile);
         }
-        returnToMainMenu();
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
     }
 
 

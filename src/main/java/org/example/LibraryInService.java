@@ -54,7 +54,7 @@ public class LibraryInService {
     }
 
     private void displayLoggedInMenu() {
-        System.out.println("\n     Welcome " + loggedInMember.getName() + ". Please select an option: \n");
+        System.out.println("\n     Welcome " + loggedInMember.getName() + ". Please select an option: ");
         System.out.println("\n    1) Display all available books");
         System.out.println("\n    2) Search for a book");
         System.out.println("\n    3) Borrow a book");

@@ -8,10 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BookServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BookServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LibraryInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LibraryInService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LibraryInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/LibraryInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MemberServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MemberServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/books_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/books_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/member_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/member_data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
