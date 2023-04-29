@@ -481,23 +481,23 @@
   },
   {   
     "id":49,
-    "timesLoaned":0,
+    "timesLoaned":2,
     "author":"John Steinbeck",
     "title":"Once There Was a War",
     "genre":"nonfiction",
     "subGenre":"history",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":50,
-    "timesLoaned":0,
+    "timesLoaned":2,
     "author":"John Steinbeck",
     "title":"The Moon is Down",
     "genre":"fiction",
     "subGenre":"classic",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":51,
@@ -551,13 +551,13 @@
   },
   {   
     "id":56,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Madan Gupta",
     "title":"Soft Computing & Intelligent Systems",
     "genre":"tech",
     "subGenre":"data_science",
     "publisher":"Elsevier",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":57,
@@ -661,7 +661,7 @@
   },
   {   
     "id":67,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Amartya Sen",
     "title":"The Argumentative Indian",
     "genre":"nonfiction",
@@ -751,13 +751,13 @@
   },
   {   
     "id":76,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Various",
     "title":" Vol 39 No. 1 Social Choice & Welfare",
     "genre":"tech",
     "subGenre":"economics",
     "publisher":"Springer",
-    "loanerID":0
+    "loanerID":4090
   },
   {   
     "id":77,
@@ -831,7 +831,7 @@
   },
   {   
     "id":84,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"John Doe",
     "title":" The World's Greatest Trials",
     "genre":"nonfiction",
@@ -941,13 +941,13 @@
   },
   {   
     "id":95,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Peter Drucker",
     "title":"New Markets & Other Essays",
     "genre":"science",
     "subGenre":"economics",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":96,
@@ -1121,7 +1121,7 @@
   },
   {   
     "id":113,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Bertrand Russell",
     "title":"History of Western Philosophy",
     "genre":"philosophy",

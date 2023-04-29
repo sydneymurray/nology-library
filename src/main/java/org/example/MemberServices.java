@@ -122,7 +122,7 @@ public class MemberServices {
     private void returnToMainMenu(){
         System.out.println("\n     Press enter to return to the main menu");
         try {
-            String userInput = keyboardInput.nextLine();
+            keyboardInput.nextLine();
         } catch (Exception e) {
             System.out.println("An error occurred.");
         }

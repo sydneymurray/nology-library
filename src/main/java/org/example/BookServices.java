@@ -52,6 +52,7 @@ public class BookServices {
         System.out.println("\n     Please enter the books ID");
         try {
             selection = keyboardInput.nextInt();
+            keyboardInput.nextLine();
         } catch (InputMismatchException e) {
             System.out.println("\nIncorrect selection");
             return;
@@ -102,8 +103,9 @@ public class BookServices {
 
         try {
             selection = keyboardInput.nextInt();
+            keyboardInput.nextLine();
         } catch (InputMismatchException e) {
-            System.out.println("\nIncorrect selection");
+            System.out.println("\n     You didn't select a book");
             return;
         }
 
@@ -117,7 +119,12 @@ public class BookServices {
             }
         }
 
-        if (!returnBook) System.out.println("\n     Book ID: " + selection + " has not been registered to you.");
+        if (!returnBook) {
+            System.out.println("\n     Book ID: " + selection + " has not been registered to you.");
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
+            return;
+        }
         returnToMainMenu();
     }
 
@@ -204,7 +211,7 @@ public class BookServices {
     private void returnToMainMenu() {
         System.out.println("\n     Press enter to return to the main menu");
         try {
-            textInput = keyboardInput.nextLine();
+            keyboardInput.nextLine();
         } catch (Exception e) {
             System.out.println("An error occurred.");
         }

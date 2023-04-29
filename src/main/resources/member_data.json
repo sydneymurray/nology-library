@@ -4,39 +4,41 @@
     "name":"edward",
     "email":"ted@syd.com",
     "password":"password",
-    "administrator":false,
-    "Test": "Test"
+    "administrator":false
   },
   {   
     "id":9,
     "name":"sydney",
     "email":"syd@syd.com",
     "password":"password",
-    "administrator":true,
-    "Test": "Test"
+    "administrator":true
   },
   {   
     "id":9879,
     "name":"nicol",
     "email":"nikki@syd.com",
     "password":"password",
-    "administrator":"true",
-    "Test": "Test"
+    "administrator":true
   },
   {   
     "id":879,
     "name":"robert",
     "email":"bob@syd.com",
     "password":"password",
-    "administrator":false,
-    "Test": "Test"
+    "administrator":false
   },
   {   
     "id":2164,
     "name":"jake",
     "email":"jj@syd.com",
     "password":"password",
-    "administrator":false,
-    "Test": "Test"
+    "administrator":false
+  },
+  {   
+    "id":1643,
+    "name":"William Gates",
+    "email":"bill@microsoft.com",
+    "password":"password",
+    "administrator":false
   }
 ]

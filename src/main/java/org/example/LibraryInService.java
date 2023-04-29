@@ -31,7 +31,7 @@ public class LibraryInService {
 
     private void displayLoggedOutMenu() {
         System.out.println("\n\n     Welcome to Syds Library. Please select an option: ");
-        System.out.println("           We has a selection of " + bookTotal + " books.\n");
+        System.out.println("           We have a selection of " + bookTotal + " books.\n");
         System.out.println("\n    1) Sign Up: ");
         System.out.println("\n    2) Login");
         try {
@@ -68,6 +68,7 @@ public class LibraryInService {
 
         try {
             selection = keyboardInput.nextInt();
+            keyboardInput.nextLine();
         } catch (InputMismatchException e) {
             System.out.println("\nIncorrect selection");
             return;

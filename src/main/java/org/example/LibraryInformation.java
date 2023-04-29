@@ -9,8 +9,6 @@ public class LibraryInformation {
     public LoadCSVBookLibrary loadCSVBookLibrary = new LoadCSVBookLibrary();
     public LoadJSONBookLibrary loadJSONBookLibrary = new LoadJSONBookLibrary();
     public LoadMemberDB loadMemberDB = new LoadMemberDB();
-    public MemberServices memberServices = new MemberServices();
-    public SaveBookLibrary saveBookLibrary = new SaveBookLibrary();
     public SaveMemberDB saveMemberDB = new SaveMemberDB();
     private File csvBookDataFile = new File("./src/main/resources/books_data.csv");
     private File jsonBookDataFile = new File("./src/main/resources/books_data.json");
@@ -20,16 +18,9 @@ public class LibraryInformation {
         return libraryContent;
     }
 
-    public void setLibraryContent(ArrayList<Book> libraryContent) {
-        this.libraryContent = libraryContent;
-    }
 
     public ArrayList<Member> getLibraryMembers() {
         return libraryMembers;
-    }
-
-    public void setLibraryMembers(ArrayList<Member> libraryMembers) {
-        this.libraryMembers = libraryMembers;
     }
 
     public int retrieveLibraryData() {
@@ -39,7 +30,7 @@ public class LibraryInformation {
         return libraryContent.size();
     }
 
-    public void AddNewMember(Member newMember){
+    public void AddNewMember(Member newMember) {
         libraryMembers.add(newMember);
         saveMemberDB.saveMemberDataToJSONFile(libraryMembers);
     }
