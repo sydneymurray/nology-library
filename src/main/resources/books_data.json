@@ -31,13 +31,13 @@
   },
   {   
     "id":4,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Stephen Dubner",
     "title":"Superfreakonomics",
     "genre":"science",
     "subGenre":"economics",
     "publisher":"HarperCollins",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":5,
@@ -241,13 +241,13 @@
   },
   {   
     "id":25,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Wes McKinney",
     "title":"Python for Data Analysis",
     "genre":"tech",
     "subGenre":"data_science",
     "publisher":"O'Reilly",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":26,
@@ -371,7 +371,7 @@
   },
   {   
     "id":38,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Jeffery Archer",
     "title":"False Impressions",
     "genre":"fiction",
@@ -431,23 +431,23 @@
   },
   {   
     "id":44,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Stephen Dubner",
     "title":"Freakonomics",
     "genre":"science",
     "subGenre":"economics",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":45,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Fritjof Capra",
     "title":"The Hidden Connections",
     "genre":"science",
     "subGenre":"physics",
     "publisher":"HarperCollins",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":46,
@@ -531,13 +531,13 @@
   },
   {   
     "id":54,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"BBC",
     "title":" The Complete Mastermind",
     "genre":"nonfiction",
     "subGenre":"trivia",
     "publisher":"BBC",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":55,
@@ -631,13 +631,13 @@
   },
   {   
     "id":64,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Jonathan Stroud",
     "title":"The Amulet of Samarkand",
     "genre":"fiction",
     "subGenre":"novel",
     "publisher":"Random House",
-    "loanerID":0
+    "loanerID":9879
   },
   {   
     "id":65,
@@ -671,13 +671,13 @@
   },
   {   
     "id":68,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Amitav Ghosh",
     "title":"Sea of Poppies",
     "genre":"fiction",
     "subGenre":"novel",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":9879
   },
   {   
     "id":69,
@@ -701,13 +701,13 @@
   },
   {   
     "id":71,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Bob Woodward",
     "title":"All the President's Men",
     "genre":"nonfiction",
     "subGenre":"history",
     "publisher":"Random House",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":72,
@@ -971,23 +971,23 @@
   },
   {   
     "id":98,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"John Steinbeck",
     "title":"Burning Bright",
     "genre":"fiction",
     "subGenre":"classic",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":99,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Peter Drucker",
     "title":"The Age of Discontuinity",
     "genre":"nonfiction",
     "subGenre":"economics",
     "publisher":"Random House",
-    "loanerID":0
+    "loanerID":1643
   },
   {   
     "id":100,
@@ -1041,17 +1041,17 @@
   },
   {   
     "id":105,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Lee Iacoca",
     "title":"Talking Straight",
     "genre":"nonfiction",
     "subGenre":"autobiography",
     "publisher":"Penguin",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":106,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"WilliamS Maugham",
     "title":"Vol3 Maugham's Collected Short Stories",
     "genre":"fiction",
@@ -1081,13 +1081,13 @@
   },
   {   
     "id":109,
-    "timesLoaned":0,
+    "timesLoaned":1,
     "author":"Robert Pirsig",
     "title":"Zen & The Art of Motorcycle Maintenance",
     "genre":"philosophy",
     "subGenre":"autobiography",
     "publisher":"Vintage",
-    "loanerID":0
+    "loanerID":2164
   },
   {   
     "id":110,

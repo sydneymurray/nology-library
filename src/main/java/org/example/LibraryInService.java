@@ -30,15 +30,18 @@ public class LibraryInService {
     }
 
     private void displayLoggedOutMenu() {
+        //memberServices.displayMembers(libraryInformation.getLibraryMembers());
         System.out.println("\n\n     Welcome to Syds Library. Please select an option: ");
         System.out.println("           We have a selection of " + bookTotal + " books.\n");
         System.out.println("\n    1) Sign Up: ");
         System.out.println("\n    2) Login");
         try {
             selection = keyboardInput.nextInt();
+            keyboardInput.nextLine();
         } catch (InputMismatchException e) {
             //e.printStackTrace();
             System.out.println("\nIncorrect selection");
+            keyboardInput.nextLine();
             return;
         }
         switch (selection) {
@@ -57,13 +60,14 @@ public class LibraryInService {
         System.out.println("\n     Welcome " + loggedInMember.getName() + ". Please select an option: ");
         System.out.println("\n    1) Display all available books");
         System.out.println("\n    2) Search for a book");
-        System.out.println("\n    3) Borrow a book");
-        System.out.println("\n    4) Return a book");
-        System.out.println("\n    5) Logout");
-        System.out.println("\n    6) Upgrade membership to Admin.");
+        System.out.println("\n    3) Display loaned books");
+        System.out.println("\n    4) Borrow a book");
+        System.out.println("\n    5) Return a book");
+        System.out.println("\n    6) Logout");
+        System.out.println("\n    7) Upgrade membership to Admin.");
         if (loggedInMember.getAdministrator()) {
-            System.out.println("\n    7) Display current books on loan");
-            System.out.println("\n    8) Display books that have been lent");
+            System.out.println("\n    8) Display all books currently books on loan");
+            System.out.println("\n    9) Display all books that have ever been lent out");
         }
 
         try {
@@ -71,6 +75,7 @@ public class LibraryInService {
             keyboardInput.nextLine();
         } catch (InputMismatchException e) {
             System.out.println("\nIncorrect selection");
+            keyboardInput.nextLine();
             return;
         }
         switch (selection) {
@@ -81,22 +86,25 @@ public class LibraryInService {
                 bookServices.searchAvailableBooks(libraryInformation.getLibraryContent());
                 break;
             case 3:
-                bookServices.borrowABook(loggedInMember, libraryInformation.getLibraryContent());
+                bookServices.displayLoanedBooks(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             case 4:
-                bookServices.returnABook(loggedInMember, libraryInformation.getLibraryContent());
+                bookServices.borrowABook(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             case 5:
-                loggedInMember = null;
+                bookServices.returnABook(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             case 6:
-                memberServices.upgradeMembership(loggedInMember, libraryInformation.getLibraryMembers());
+                loggedInMember = null;
                 break;
             case 7:
+                memberServices.upgradeMembership(loggedInMember, libraryInformation.getLibraryMembers());
+                break;
+            case 8:
                 bookServices.displayBooksOnLoan(loggedInMember, libraryInformation.getLibraryContent(),
                         libraryInformation.getLibraryMembers());
                 break;
-            case 8:
+            case 9:
                 bookServices.displayLentBooks(loggedInMember, libraryInformation.getLibraryContent());
                 break;
             default:

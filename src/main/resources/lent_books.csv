@@ -1,7 +1,20 @@
 BookID,Lent,Author,Title,Genre,Publisher
+11,1,Sebastian Gutierrez,Data Scientists at Work,tech,Apress
+12,1,Kurt Vonnegut,Slaughterhouse Five,fiction,Random House
+18,1,Robert Nisbet,Data Mining Handbook,tech,Apress
 22,1,Terence Tao,VolI Analysis,tech,HBA
 28,1,Albert Camus,The Outsider,fiction,Penguin
 35,1,Richard Feynman,Surely You're Joking Mr Feynman,science,Random House
+49,2,John Steinbeck,Once There Was a War,nonfiction,Penguin
+50,2,John Steinbeck,The Moon is Down,fiction,Penguin
+56,1,Madan Gupta,Soft Computing & Intelligent Systems,tech,Elsevier
+58,1,W.H. Greene,Econometric Analysis,tech,Pearson
+67,1,Amartya Sen,The Argumentative Indian,nonfiction,Picador
+76,1,Various, Vol 39 No. 1 Social Choice & Welfare,tech,Springer
+77,1,PL Deshpande,Radiowaril Bhashane & Shrutika,nonfiction,Mauj
+84,1,John Doe, The World's Greatest Trials,nonfiction,Penguin
 91,1,Sam Harris,Free Will,nonfiction,FreePress
+95,1,Peter Drucker,New Markets & Other Essays,science,Penguin
+113,1,Bertrand Russell,History of Western Philosophy,philosophy,Routledge
 115,1,Amartya Sen,Rationality & Freedom,science,Springer
 119,1,Karl Marx,Karl Marx Biography,nonfiction,Penguin

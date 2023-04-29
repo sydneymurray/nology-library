@@ -56,7 +56,10 @@ public class BookServices {
             selection = keyboardInput.nextInt();
             keyboardInput.nextLine();
         } catch (InputMismatchException e) {
-            System.out.println("\nIncorrect selection");
+            System.out.println("\n     Incorrect selection");
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
+            keyboardInput.nextLine();
             return;
         }
 
@@ -79,26 +82,33 @@ public class BookServices {
         System.out.println("\n    2) Return to the main menu");
         try {
             selection = keyboardInput.nextInt();
+            keyboardInput.nextLine();
         } catch (InputMismatchException e) {
-            System.out.println("\nIncorrect selection");
+            System.out.println("\n     Incorrect selection");
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
+            keyboardInput.nextLine();
             return;
         }
         if (selection == 1) {
             selectedBook.incrementTimesLoaned();
             selectedBook.setLoanerID(loggedInMember.getId());
-            System.out.println("      " + selectedBook.getAuthor() + " " + selectedBook.getTitle() +
+            System.out.println("      " + selectedBook.getTitle() + " by " + selectedBook.getAuthor() +
                     " has been checked out in your name");
             saveBookLibrary.saveBookLibraryToJSONFile(books);
+            System.out.println("\n     Press enter to return to the main menu");
+            keyboardInput.nextLine();
         }
-        System.out.println("\n     Press enter to return to the main menu");
-        keyboardInput.nextLine();
-        keyboardInput.nextLine();
     }
 
     public void returnABook(Member loggedInMember, ArrayList<Book> books) {
         Boolean returnBook = false;
 
-        System.out.println("\n     Please enter the book ID that you wish to return.");
+        System.out.println("\n         Please enter the book ID that you wish to return.");
+
+        System.out.println("\n  ID  Author                 Title                                                   Genre" +
+                "        Publisher");
+
         for (Book book : books) {
             if (book.getLoanerID() == loggedInMember.getId()) {
                 System.out.printf("%4d  %-22s %-55s %-12s %-15s %n",
@@ -111,6 +121,8 @@ public class BookServices {
             keyboardInput.nextLine();
         } catch (InputMismatchException e) {
             System.out.println("\n     You didn't select a book");
+            keyboardInput.nextLine();
+            keyboardInput.nextLine();
             return;
         }
 
@@ -128,9 +140,20 @@ public class BookServices {
             System.out.println("\n     Book ID: " + selection + " has not been registered to you.");
             System.out.println("\n     Press enter to return to the main menu");
             keyboardInput.nextLine();
-            System.out.println("\n     Press enter to return to the main menu");
-            keyboardInput.nextLine();
             return;
+        }
+        System.out.println("\n     Press enter to return to the main menu");
+        keyboardInput.nextLine();
+    }
+
+    public void displayLoanedBooks(Member loggedInMember, ArrayList<Book> books){
+        System.out.println("\n  ID  Author                 Title                                                   Genre" +
+                "        Publisher");
+        for (Book book : books) {
+            if (book.getLoanerID() == loggedInMember.getId()){
+                System.out.printf("%4d  %-22s %-55s %-12s %-15s %n",
+                        book.getId(), book.getAuthor(), book.getTitle(), book.getGenre(), book.getPublisher());
+            }
         }
         System.out.println("\n     Press enter to return to the main menu");
         keyboardInput.nextLine();
@@ -151,7 +174,7 @@ public class BookServices {
         }
 
         System.out.println("\n         Books currently on loan.  A copy is saved to loaned_books.csv");
-        System.out.println("         MID Name            Email                      BID Author                 " +
+        System.out.println("\n         MID Name            Email                      BID Author                 " +
                 "Title                                    Genre        Publisher      ");
         String loanedBooksCSVData = "MemberID,Name,Email,BookID,Author,Title,Genre,Publisher\n";
         for (Book book : books) {
@@ -196,8 +219,8 @@ public class BookServices {
             return;
         }
         String lentBooksCSVData = "BookID,Lent,Author,Title,Genre,Publisher\n";
-        System.out.println("\n         Books that have been lent. A copy is saved to lent_books.csv");
-        System.out.println("          BID Lent Author                 " +
+        System.out.println("\n          Books that have been lent. A copy is saved to lent_books.csv");
+        System.out.println("\n          BID Lent Author                 " +
                 "Title                                    Genre        Publisher      ");
         for (Book book : books) {
             if (book.getTimesLoaned() > 0) {

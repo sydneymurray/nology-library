@@ -28,7 +28,8 @@ public class LoadMemberDB {
                 getKeyValue(memberKeys[3])
         );
         member.setId(Integer.parseInt(getKeyValue(memberKeys[0])));
-        member.setAdministrator(Boolean.parseBoolean(getKeyValue(memberKeys[4])));
+        if (memberKeys[4].contains("true")) member.setAdministrator(true);
+        else member.setAdministrator(false);
         return member;
     }
 

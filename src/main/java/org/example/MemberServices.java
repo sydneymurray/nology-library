@@ -114,11 +114,10 @@ public class MemberServices {
         keyboardInput.nextLine();
     }
 
-    private void displayMembers(ArrayList<Member> members) {
+    public void displayMembers(ArrayList<Member> members) {
         for (Member member : members) {
-            System.out.printf("%6d %20s %20s %20s %8s %3d %3d %n",
-                    member.getId(), member.getName(), member.getPassword(), member.getEmail(), member.getAdministrator(),
-                    member.getEmail().length(), member.getPassword().length());
+            System.out.printf("%6d %20s %20s %20s %8s %n",
+                    member.getId(), member.getName(), member.getPassword(), member.getEmail(), member.getAdministrator());
         }
     }
 }

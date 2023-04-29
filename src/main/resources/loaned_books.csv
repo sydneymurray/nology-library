@@ -1,6 +1,14 @@
 MemberID,Name,Email,BookID,Author,Title,Genre,Publisher
+1643,William Gates,bill@microsoft.com,11,Sebastian Gutierrez,Data Scientists at Work,tech,Apress
+1643,William Gates,bill@microsoft.com,18,Robert Nisbet,Data Mining Handbook,tech,Apress
 2164,jake,jj@syd.com,22,Terence Tao,VolI Analysis,tech,HBA
 2164,jake,jj@syd.com,28,Albert Camus,The Outsider,fiction,Penguin
 879,robert,bob@syd.com,35,Richard Feynman,Surely You're Joking Mr Feynman,science,Random House
+1643,William Gates,bill@microsoft.com,49,John Steinbeck,Once There Was a War,nonfiction,Penguin
+1643,William Gates,bill@microsoft.com,50,John Steinbeck,The Moon is Down,fiction,Penguin
+1643,William Gates,bill@microsoft.com,56,Madan Gupta,Soft Computing & Intelligent Systems,tech,Elsevier
+1643,William Gates,bill@microsoft.com,58,W.H. Greene,Econometric Analysis,tech,Pearson
+4090,edward,ted@syd.com,76,Various, Vol 39 No. 1 Social Choice & Welfare,tech,Springer
 879,robert,bob@syd.com,91,Sam Harris,Free Will,nonfiction,FreePress
+1643,William Gates,bill@microsoft.com,95,Peter Drucker,New Markets & Other Essays,science,Penguin
 4090,edward,ted@syd.com,115,Amartya Sen,Rationality & Freedom,science,Springer
